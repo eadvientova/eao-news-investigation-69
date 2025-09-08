@@ -1,0 +1,334 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Editorial News Design System - Fox News/CNN Style */
+
+@layer base {
+  :root {
+    /* Editorial Color Palette - Blue Theme */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 12%;
+    --news-text: 0 0% 15%;
+    --news-muted: 0 0% 45%;
+    --news-border: 0 0% 88%;
+    --news-accent: 220 100% 50%;
+    --breaking-blue: 210 100% 50%;
+    --editor-blue: 210 100% 45%;
+
+    /* Shadcn Variables */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 15%;
+    --primary: 210 100% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 15%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 15%;
+    --destructive: 210 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 210 100% 45%;
+    --radius: 0.375rem;
+
+    /* Editorial Typography */
+    --news-headline: 700;
+    --news-subhead: 600;
+    --news-body: 400;
+    
+    /* Editorial Spacing */
+    --editorial-spacing: 1.5rem;
+    --sidebar-width: 20rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-news-text;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.7;
+  }
+  
+  /* Editorial Typography Classes */
+  .news-headline {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: var(--news-headline);
+    line-height: 1.2;
+  }
+  
+  .news-subhead {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: var(--news-subhead);
+    line-height: 1.4;
+  }
+  
+  .news-body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: var(--news-body);
+    line-height: 1.7;
+  }
+  
+  .news-sans {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+@layer components {
+  /* Editorial Components */
+  .breaking-badge {
+    @apply inline-block px-2 py-1 text-xs font-semibold uppercase tracking-wide text-white;
+    background-color: hsl(var(--breaking-blue));
+  }
+  
+  /* Breaking News Ticker */
+  .breaking-ticker {
+    @apply text-white py-3 px-4 overflow-hidden relative;
+    background-color: hsl(var(--breaking-blue));
+  }
+  
+  .ticker-content {
+    @apply flex items-center gap-16 animate-ticker;
+  }
+  
+  .ticker-item {
+    @apply whitespace-nowrap text-sm font-semibold uppercase tracking-wide flex-shrink-0;
+  }
+  
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  .animate-ticker {
+    animation: ticker 40s linear infinite;
+  }
+  
+  .editor-pick {
+    @apply inline-block px-3 py-1 text-sm font-semibold text-white rounded;
+    background-color: hsl(var(--breaking-blue));
+    border: 1px solid hsl(var(--editor-blue));
+  }
+  
+  .pull-quote {
+    @apply pl-6 my-8 text-xl italic text-gray-700;
+    border-left: 4px solid hsl(var(--breaking-blue));
+  }
+  
+  .fact-box {
+    @apply p-6 bg-gray-50 border border-gray-200 rounded-lg;
+  }
+  
+  .testimonial-card {
+    @apply p-4 bg-white border border-gray-200 rounded-lg shadow-sm;
+  }
+  
+  /* Enhanced Button Styling - Unified Blue Theme */
+  .editorial-cta {
+    @apply inline-flex items-center px-6 py-3 text-sm font-semibold text-white rounded-lg focus:outline-none focus:ring-2 transition-colors duration-200;
+    background-color: hsl(var(--breaking-blue));
+  }
+  .editorial-cta:hover {
+    background-color: hsl(var(--editor-blue));
+  }
+  .editorial-cta:focus {
+    ring-color: hsl(var(--breaking-blue));
+  }
+  
+  .editorial-cta-large {
+    @apply inline-flex items-center px-8 py-4 text-lg font-semibold text-white rounded-xl focus:outline-none focus:ring-2 transition-colors duration-200;
+    background-color: hsl(var(--breaking-blue));
+  }
+  .editorial-cta-large:hover {
+    background-color: hsl(var(--editor-blue));
+  }
+  .editorial-cta-large:focus {
+    ring-color: hsl(var(--breaking-blue));
+  }
+  
+  .editorial-cta-urgent {
+    @apply inline-flex items-center px-6 py-3 text-sm font-semibold text-white rounded-lg focus:outline-none focus:ring-2 transition-colors duration-200;
+    background-color: hsl(var(--breaking-blue));
+    animation: slow-pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  .editorial-cta-urgent:hover {
+    background-color: hsl(var(--editor-blue));
+  }
+  .editorial-cta-urgent:focus {
+    ring-color: hsl(var(--breaking-blue));
+  }
+  
+  .editorial-cta-success {
+    @apply inline-flex items-center px-6 py-3 text-sm font-semibold text-white rounded-lg focus:outline-none focus:ring-2 transition-colors duration-200;
+    background-color: hsl(var(--breaking-blue));
+  }
+  .editorial-cta-success:hover {
+    background-color: hsl(var(--editor-blue));
+  }
+  .editorial-cta-success:focus {
+    ring-color: hsl(var(--breaking-blue));
+  }
+  
+  .sidebar-widget {
+    @apply mb-8 p-6 bg-gray-50 border border-gray-200 rounded-lg;
+  }
+  
+  /* Consistent Spacing */
+  .content-section {
+    @apply mb-12 px-4 w-full max-w-6xl mx-auto;
+  }
+  
+  .image-container {
+    @apply text-center mb-8 px-4;
+  }
+  
+  .image-responsive {
+    @apply w-full max-w-full h-auto mx-auto rounded-lg shadow-md;
+  }
+  
+  /* FOMO & CTA Enhancements - Unified Blue Theme */
+  .fomo-box {
+    @apply p-4 rounded-lg mb-6;
+    background-color: hsl(var(--breaking-blue) / 0.1);
+    border-left: 4px solid hsl(var(--breaking-blue));
+  }
+  
+  .fomo-counter {
+    @apply inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium;
+    background-color: hsl(var(--breaking-blue) / 0.1);
+    color: hsl(var(--editor-blue));
+  }
+  
+  .scarcity-alert {
+    @apply p-4 rounded-lg;
+    background-color: hsl(var(--breaking-blue) / 0.1);
+    border: 1px solid hsl(var(--breaking-blue) / 0.3);
+    color: hsl(var(--editor-blue));
+  }
+  
+  .testimonial-enhanced {
+    @apply p-6 bg-white border border-gray-200 rounded-lg shadow-sm mb-6 relative;
+  }
+  
+  .testimonial-enhanced::before {
+    content: '"';
+    @apply absolute -top-2 -left-2 text-6xl font-serif;
+    color: hsl(var(--breaking-blue) / 0.2);
+  }
+  
+  .comparison-box {
+    @apply p-6 rounded-lg border border-gray-200 mb-8;
+    background: linear-gradient(to right, hsl(var(--breaking-blue) / 0.1), hsl(220 100% 50% / 0.1));
+  }
+  
+  .sticky-cta {
+    @apply fixed bottom-0 left-0 right-0 z-50 text-white p-4 shadow-lg transform translate-y-full transition-transform duration-300;
+    background-color: hsl(var(--breaking-blue));
+  }
+  
+  .sticky-cta.show {
+    @apply translate-y-0;
+  }
+  
+  .pull-quote-large {
+    @apply pl-8 my-8 text-2xl italic text-gray-700 font-serif;
+    border-left: 4px solid hsl(var(--breaking-blue));
+  }
+  
+  
+  /* Custom Slow Pulse Animation */
+  @keyframes slow-pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+  
+  /* Mobile-First Responsive Design */
+  @media (max-width: 768px) {
+    .news-headline {
+      @apply text-2xl leading-tight;
+    }
+    
+    .news-subhead {
+      @apply text-lg;
+    }
+    
+    .sidebar-widget {
+      @apply mb-6 p-4;
+    }
+    
+    .editorial-cta, 
+    .editorial-cta-large {
+      @apply w-full justify-center text-center;
+    }
+    
+    .testimonial-enhanced {
+      @apply p-4;
+    }
+    
+    .pull-quote-large {
+      @apply text-xl pl-4 border-l-2;
+    }
+  }
+  
+  /* Image Optimization */
+  img {
+    @apply max-w-full h-auto;
+  }
+  
+  .hero-image {
+    @apply w-full h-auto object-cover;
+    aspect-ratio: 16/9;
+  }
+  
+  .product-image {
+    @apply w-full max-w-sm mx-auto h-auto object-contain;
+  }
+  
+  .lifestyle-image {
+    @apply w-full h-auto object-cover rounded-lg;
+    aspect-ratio: 4/5;
+  }
+  
+  @media (max-width: 640px) {
+    .lifestyle-image {
+      aspect-ratio: 1/1;
+    }
+  }
+  /* Klaviyo form styling */
+  .klaviyo-form-TbbXfi form {
+    @apply flex flex-col gap-1 m-0;
+  }
+
+  .klaviyo-form-TbbXfi form > div {
+    @apply m-0 p-0;
+    min-height: 50px !important;
+  }
+
+  .klaviyo-form-TbbXfi label {
+    @apply hidden;
+  }
+
+  .klaviyo-form-TbbXfi input[type="email"] {
+    @apply m-0 w-full px-3 py-2 border border-gray-300 rounded;
+  }
+
+  .klaviyo-form-TbbXfi button[type="submit"] {
+    @apply m-0 w-full px-6 py-2 text-sm font-semibold text-white rounded transition-colors;
+    background-color: hsl(var(--breaking-blue));
+  }
+  .klaviyo-form-TbbXfi button[type="submit"]:hover {
+    background-color: hsl(var(--editor-blue));
+  }
+}
