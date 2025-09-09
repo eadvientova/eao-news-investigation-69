@@ -54,10 +54,10 @@ const Index = ({destinationUrl}) => {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="news-headline text-4xl md:text-5xl lg:text-6xl font-bold text-news-text mb-4">
-            BREAKING: Essence of Argan Oil Outsells Botox After Leaked Clinical Trial!
+            Just In: Essence of Argan Oil Selling Out Across the Country
           </h1>
           <p className="news-subhead text-xl md:text-2xl text-news-muted mb-6">
-            Fox Lifestyle Investigation: Dermatologists Panic as Essence of Argan Oil Vanishes—Grab Your $39 Bottle.
+            Beauty editors warn nationwide shortage—secure your bottle before it disappears.
           </p>
           <div className="relative w-full max-w-4xl mx-auto">
             <img
