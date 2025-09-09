@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-const heroImage = "/lovable-uploads/b8eb35c2-2313-483e-bda7-2009a07410d9.png";
-import dermatologistRealistic from "@/assets/dermatologist-realistic.jpg";
+import heroBreakingNews from "@/assets/hero-clinical-lab.jpg";
+
+const heroImage = heroBreakingNews;
 
 const Index = ({destinationUrl}) => {
   const [orderCount, setOrderCount] = useState(137);
@@ -61,14 +62,14 @@ const Index = ({destinationUrl}) => {
           <div className="relative w-full max-w-4xl mx-auto">
             <img
               src={heroImage}
-              alt="Before and after comparison showing botox injection vs natural skincare results with Argan oil cream"
+              alt="Investigators examine Essence of Argan Oil in a lab for a breaking news story"
               className="hero-image rounded-lg shadow-lg"
               fetchPriority="high"
               loading="eager"
               width="1200"
               height="675"
             />
-            <p className="text-sm text-news-muted mt-2 italic">Dramatic before-and-after: Botox vs. Argan oil results revealing natural transformation</p>
+            <p className="text-sm text-news-muted mt-2 italic">Newsroom lab tests confirm Argan oil's shocking anti-aging power</p>
           </div>
 
           {/* First CTA */}
