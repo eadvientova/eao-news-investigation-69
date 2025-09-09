@@ -324,14 +324,15 @@
     @apply m-0 w-full px-3 py-2 border border-[#22A152]/30 rounded focus:outline-none focus:ring-2 focus:ring-[#22A152]/50 focus:border-[#22A152];
   }
 
-  .klaviyo-form-TbbXfi button[type="submit"],
-  .klaviyo-form-TbbXfi input[type="submit"] {
+  .klaviyo-form-TbbXfi button,
+  .klaviyo-form-TbbXfi [type="submit"] {
     @apply m-0 w-full px-6 py-2 text-sm font-semibold text-white rounded transition-colors focus:outline-none focus:ring-2;
-    background-color: #22A152 !important;
+    background: #22A152 !important;
+    border-color: #22A152 !important;
     color: #fff !important;
   }
-  .klaviyo-form-TbbXfi button[type="submit"]:hover,
-  .klaviyo-form-TbbXfi input[type="submit"]:hover {
-    background-color: #1B7D3F !important;
+  .klaviyo-form-TbbXfi button:hover,
+  .klaviyo-form-TbbXfi [type="submit"]:hover {
+    background: #1B7D3F !important;
   }
 }
