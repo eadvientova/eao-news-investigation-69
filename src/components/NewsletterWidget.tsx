@@ -26,7 +26,7 @@ const NewsletterWidget = ({ className = "" }: NewsletterWidgetProps) => {
             placeholder="Email"
             className="w-full px-3 py-2 border border-[#007fff]/30 rounded focus:outline-none focus:ring-2 focus:ring-[#007fff]/50 focus:border-[#007fff] text-sm"
           />
-          <button className="w-full bg-[#007fff] hover:bg-[#0066cc] text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
+          <button className="w-full bg-[#22c55e] hover:bg-[#16a34a] text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
             Subscribe
           </button>
         </div>
