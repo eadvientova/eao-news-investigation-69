@@ -92,7 +92,7 @@
   /* Breaking News Ticker */
   .breaking-ticker {
     @apply text-white py-3 px-4 overflow-hidden relative;
-    background-color: #b91c1c;
+    background-color: hsl(var(--breaking-green));
   }
   
   .ticker-content {
