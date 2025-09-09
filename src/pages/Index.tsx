@@ -9,11 +9,11 @@ const Index = ({destinationUrl}) => {
   // Sidebar sticky management handled via CSS
   
   const tickerMessages = [
-    "BREAKING: $39 Argan Oil Wipes Out 10 Years of Wrinkles",
-    "ALERT: Dermatologists Want This Miracle Cream Banned",
-    "EXPOSED: 53-Year-Old Mom Looks 27 After Using Argan",
-    "URGENT: Free Bottles Released—Claim Yours Before Midnight",
-    "HOT: Hollywood A-Listers Secretly Hoarding This Oil"
+    "BREAKING: Essence of Argan Oil BANNED in 3 States After 1 Drop Erases Wrinkles",
+    "ALERT: Dermatologists Beg Feds to Recall Essence of Argan Oil—Too Powerful",
+    "EXPOSED: 53-Year-Old Grandma Looks 27—Essence of Argan Oil Leaks",
+    "URGENT: Free Essence of Argan Oil Bottles Released—Claim Yours Before Midnight",
+    "HOT: Hollywood A-Listers Hoarding Essence of Argan Oil Before Big Pharma Strikes"
   ];
 
   useEffect(() => {
@@ -53,10 +53,10 @@ const Index = ({destinationUrl}) => {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="news-headline text-4xl md:text-5xl lg:text-6xl font-bold text-news-text mb-4">
-            Shocking Anti-Aging Secret: Argan Oil Cream Outsells Botox!
+            BREAKING: Essence of Argan Oil Outsells Botox After Leaked Clinical Trial!
           </h1>
           <p className="news-subhead text-xl md:text-2xl text-news-muted mb-6">
-            Fox Lifestyle Investigation: See Why This $39 Moroccan Miracle Is Vanishing From Shelves.
+            Fox Lifestyle Investigation: Dermatologists Panic as Essence of Argan Oil Vanishes—Grab Your $39 Bottle.
           </p>
           <div className="relative w-full max-w-4xl mx-auto">
             <img
