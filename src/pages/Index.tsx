@@ -9,11 +9,11 @@ const Index = ({destinationUrl}) => {
   // Sidebar sticky management handled via CSS
   
   const tickerMessages = [
-    "BREAKING: Dermatologists Stunned by This One-Step Cream",
-    "TRENDING: Beauty Forums Exploding With Reviews",
-    "ALERT: CaviArgan Cream Sells Out in 72 Hours",
-    "URGENT: Major Breakthrough in Anti-Aging Science",
-    "EXCLUSIVE: Revolutionary Formula Replacing 5 Products"
+    "BREAKING: $39 Argan Oil Wipes Out 10 Years of Wrinkles",
+    "ALERT: Dermatologists Want This Miracle Cream Banned",
+    "EXPOSED: 53-Year-Old Mom Looks 27 After Using Argan",
+    "URGENT: Free Bottles Released—Claim Yours Before Midnight",
+    "HOT: Hollywood A-Listers Secretly Hoarding This Oil"
   ];
 
   useEffect(() => {
@@ -53,28 +53,28 @@ const Index = ({destinationUrl}) => {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="news-headline text-4xl md:text-5xl lg:text-6xl font-bold text-news-text mb-4">
-            Better Than Botox? The Cream With Caviar and Argan Oil That Erases Years in Weeks
+            Shocking Anti-Aging Secret: Argan Oil Cream Outsells Botox!
           </h1>
           <p className="news-subhead text-xl md:text-2xl text-news-muted mb-6">
-            Fox Lifestyle – Special Investigation: Revolutionary peptide formula creating buzz across beauty forums for its ability to smooth wrinkles, fade dark circles, and deliver all-day hydration without harsh retinol
+            Fox Lifestyle Investigation: See Why This $39 Moroccan Miracle Is Vanishing From Shelves.
           </p>
           <div className="relative w-full max-w-4xl mx-auto">
-            <img 
-              src={heroImage} 
-              alt="Before and after comparison showing botox injection vs natural skincare results with CaviArgan cream" 
+            <img
+              src={heroImage}
+              alt="Before and after comparison showing botox injection vs natural skincare results with Argan oil cream"
               className="hero-image rounded-lg shadow-lg"
               fetchPriority="high"
               loading="eager"
               width="1200"
               height="675"
             />
-            <p className="text-sm text-news-muted mt-2 italic">Dramatic before and after comparison: Botox treatment vs. CaviArgan cream results showing natural anti-aging transformation</p>
+            <p className="text-sm text-news-muted mt-2 italic">Dramatic before-and-after: Botox vs. Argan oil results revealing natural transformation</p>
           </div>
 
           {/* First CTA */}
           <div className="text-center mt-6">
             <a href={destinationUrl} className="editorial-cta-large">
-              🔥 Get Your Breakthrough Cream Now →
+              🔥 Claim Your Essence of Argan Oil Today →
             </a>
           </div>
         </div>
@@ -99,12 +99,12 @@ const Index = ({destinationUrl}) => {
               </p>
               
               <p className="news-body text-lg mb-4">
-                Enter <strong>CaviArgan Cream</strong>—a breakthrough peptide-rich formula that women are calling "the only product I need anymore."
+                Enter <strong>Essence of Argan Oil</strong>—a 100% pure Moroccan serum that women are calling "liquid gold in a bottle."
               </p>
 
               <div className="editorial-cta inline-block mb-6">
                 <a href={destinationUrl} className="editorial-cta-large">
-                  Editor's Pick: Try CaviArgan Cream Before It's Gone →
+                  Editor's Pick: Try Essence of Argan Oil Before It's Gone →
                 </a>
               </div>
 
@@ -131,19 +131,19 @@ const Index = ({destinationUrl}) => {
               <a href={destinationUrl}>
                 <img
                   src="/lovable-uploads/57ec8d87-4b32-47a3-956b-b364ec7b99de.png"
-                  alt="CaviArgan Cream luxury jar with elegant black packaging showing Wrinkle Reducer formula"
+                  alt="Essence of Argan Oil luxury jar with elegant black packaging"
                   className="image-responsive max-w-md w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
                   loading="lazy"
                   width="400"
                   height="400"
                 />
               </a>
-              <p className="text-sm text-news-muted mt-3 italic">The breakthrough CaviArgan Wrinkle Reducer that's selling out nationwide</p>
+              <p className="text-sm text-news-muted mt-3 italic">The pure Essence of Argan Oil that's shocking the beauty world</p>
               
               {/* Inline CTA */}
               <div className="mt-6">
                 <a href={destinationUrl} className="editorial-cta">
-                  Try Risk-Free Today →
+                  Experience Argan Oil Today →
                 </a>
               </div>
             </div>
@@ -157,7 +157,7 @@ const Index = ({destinationUrl}) => {
               </p>
 
               <p className="news-body text-lg mb-4">
-                CaviArgan takes anti-aging to the next level. By combining Caviar, Retinol, Argan Oil, Matrixyl®, Aquaxyl™, and advanced Peptides, this powerhouse cream attacks aging on multiple fronts: boosting collagen, locking in hydration, and repairing skin at the cellular level.
+                Essence of Argan Oil takes anti-aging to the next level. Packed with vitamin E and essential fatty acids, this powerhouse serum attacks aging on multiple fronts: boosting collagen, locking in hydration, and repairing skin at the cellular level.
               </p>
 
               <div className="pull-quote-large">
@@ -181,7 +181,7 @@ const Index = ({destinationUrl}) => {
             </section>
             {/* Clinical Results */}
             <section className="mb-8">
-              <h2 className="news-headline text-3xl font-bold text-center text-[#007fff] mb-2">
+              <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
                 Clinical Before & After Results
               </h2>
               <p className="text-center text-news-muted mb-6">
@@ -228,10 +228,10 @@ const Index = ({destinationUrl}) => {
                 ].map((item) => (
                   <div
                     key={item.title}
-                    className="border-2 border-[#007fff] rounded-lg bg-white flex flex-col overflow-hidden min-h-[280px]"
+                    className="border-2 border-[#22A152] rounded-lg bg-white flex flex-col overflow-hidden min-h-[280px]"
                   >
                     <div className="p-3 text-center flex-shrink-0">
-                      <h3 className="text-lg font-bold text-[#007fff] mb-1 leading-tight">{item.title}</h3>
+                      <h3 className="text-lg font-bold text-[#22A152] mb-1 leading-tight">{item.title}</h3>
                       <p className="text-xs text-news-muted">{item.stat}</p>
                     </div>
                     <div className="flex-1 flex items-center justify-center overflow-hidden">
@@ -245,7 +245,7 @@ const Index = ({destinationUrl}) => {
                       </a>
                     </div>
                     <div className="p-2 text-center flex-shrink-0">
-                      <span className="inline-block bg-[#007fff] text-white text-xs font-semibold px-2 py-1 rounded leading-tight">
+                      <span className="inline-block bg-[#22A152] text-white text-xs font-semibold px-2 py-1 rounded leading-tight">
                         Clinical Study Result
                         <span className="block text-[10px] font-normal">28-day treatment result</span>
                       </span>
@@ -253,8 +253,8 @@ const Index = ({destinationUrl}) => {
                   </div>
                 ))}
               </div>
-              <div className="bg-[#007fff]/10 rounded-lg p-6 mt-8">
-                <h3 className="text-2xl font-bold text-center text-[#007fff] mb-4">
+              <div className="bg-[#22A152]/10 rounded-lg p-6 mt-8">
+                <h3 className="text-2xl font-bold text-center text-[#22A152] mb-4">
                   PEER-REVIEWED CLINICAL EVIDENCE
                 </h3>
                 <p className="text-center text-news-muted mb-6">
@@ -268,7 +268,7 @@ const Index = ({destinationUrl}) => {
                     { stat: '98%', label: 'Showed Improvement' },
                   ].map((d) => (
                     <div key={d.label} className="bg-white rounded-lg p-4 text-center shadow">
-                      <div className="text-3xl font-bold text-[#007fff]">{d.stat}</div>
+                      <div className="text-3xl font-bold text-[#22A152]">{d.stat}</div>
                       <div className="text-sm text-news-muted">{d.label}</div>
                     </div>
                   ))}
@@ -386,8 +386,8 @@ const Index = ({destinationUrl}) => {
               </div>
 
               {/* Newsletter Signup Widget */}
-              <div className="sidebar-widget bg-gradient-to-br from-[#007fff]/10 to-[#007fff]/10 border-[#007fff]/20">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">📧 Beauty Insider Alerts</h3>
+              <div className="sidebar-widget bg-gradient-to-br from-[#22A152]/10 to-[#22A152]/10 border-[#22A152]/20">
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">📧 Beauty Insider Alerts</h3>
                 <p className="text-sm mb-2">Get exclusive access to breakthrough beauty discoveries before they go viral!</p>
                 <div className="klaviyo-form-TbbXfi"></div>
                 <p className="text-xs text-news-muted mt-2">Join 50,000+ beauty insiders. Unsubscribe anytime.</p>
@@ -434,11 +434,11 @@ const Index = ({destinationUrl}) => {
               </div>
 
               {/* Limited Stock Widget */}
-              <div className="sidebar-widget bg-[#007fff]/10 border-[#007fff]/20">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">⚠️ Stock Alert</h3>
+              <div className="sidebar-widget bg-[#22A152]/10 border-[#22A152]/20">
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">⚠️ Stock Alert</h3>
                 <div className="fomo-counter mb-3">⚡ {orderCount} orders today</div>
                 <p className="text-sm mb-4">Less than 200 units remaining for this month. New shipments delayed until next quarter.</p>
-                <a href={destinationUrl} className="editorial-cta bg-[#007fff] hover:bg-[#0066cc] w-full justify-center">
+                <a href={destinationUrl} className="editorial-cta bg-[#22A152] hover:bg-[#22A152] w-full justify-center">
                   Order Before It's Gone →
                 </a>
               </div>
@@ -457,13 +457,13 @@ const Index = ({destinationUrl}) => {
                     alt="Woman holding CaviArgan cream with radiant skin"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
                     SHOCKING: This $39 CaviArgan Cream Outperforms $300 Luxury Brands
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     Celebrity makeup artists reveal the affordable secret behind Hollywood's glow that's causing luxury brands to panic...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">TRENDING NOW • 2 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">TRENDING NOW • 2 min read</div>
                 </a>
 
                 {/* Essence of Argan Article */}
@@ -476,13 +476,13 @@ const Index = ({destinationUrl}) => {
                     alt="Woman applying Essence of Argan oil with glowing skin"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
                     EXCLUSIVE: Moroccan Argan Oil Secret That's Making Botox Obsolete
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     Beauty insiders scramble to get their hands on this ancient anti-aging formula that's leaving dermatologists speechless...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">BREAKING • 3 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">BREAKING • 3 min read</div>
                 </a>
 
                 {/* Additional Article 1 */}
@@ -495,13 +495,13 @@ const Index = ({destinationUrl}) => {
                     alt="Woman with perfect skin results"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
                     VIRAL: 58-Year-Old Mom Looks 35 After Using This 1 Simple Trick
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     Plastic surgeons hate her! Local mom discovers fountain of youth that costs less than your morning coffee...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">VIRAL • 4 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">VIRAL • 4 min read</div>
                 </a>
 
                 {/* Additional Article 2 */}
@@ -514,13 +514,13 @@ const Index = ({destinationUrl}) => {
                     alt="Premium skincare product results"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
                     EXPOSED: The $15 Anti-Aging Cream That Billionaires Don't Want You to Know About
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     Silicon Valley insider leaks the secret formula that tech moguls have been hiding from the public...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">EXCLUSIVE • 5 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">EXCLUSIVE • 5 min read</div>
                 </a>
 
                 {/* Additional Article 3 */}
@@ -533,35 +533,35 @@ const Index = ({destinationUrl}) => {
                     alt="Amazing before after transformation"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
                     MIRACLE: Before & After Photos That Will Make You Believe in Anti-Aging Science
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     These shocking transformation photos are proof that age is just a number when you know the right secrets...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">MUST SEE • 3 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">MUST SEE • 3 min read</div>
                 </a>
               </div>
 
               {/* Additional Sidebar Content */}
               <div className="sidebar-widget">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">🔥 What's Hot Right Now</h3>
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">🔥 What's Hot Right Now</h3>
                 <div className="space-y-4">
-                  <div className="flex items-center gap-3 p-3 bg-[#007fff]/10 rounded-lg">
+                  <div className="flex items-center gap-3 p-3 bg-[#22A152]/10 rounded-lg">
                     <span className="text-2xl">📈</span>
                     <div>
                       <h4 className="font-semibold text-sm">Anti-Aging Market Explodes</h4>
                       <p className="text-xs text-news-muted">Peptide creams see 400% surge in demand</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 p-3 bg-[#007fff]/10 rounded-lg">
+                  <div className="flex items-center gap-3 p-3 bg-[#22A152]/10 rounded-lg">
                     <span className="text-2xl">🧪</span>
                     <div>
                       <h4 className="font-semibold text-sm">Lab Results Shock Scientists</h4>
                       <p className="text-xs text-news-muted">New formula shows unprecedented results</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 p-3 bg-[#007fff]/10 rounded-lg">
+                  <div className="flex items-center gap-3 p-3 bg-[#22A152]/10 rounded-lg">
                     <span className="text-2xl">👩‍⚕️</span>
                     <div>
                       <h4 className="font-semibold text-sm">Dermatologists Recommend</h4>
@@ -572,16 +572,16 @@ const Index = ({destinationUrl}) => {
               </div>
 
               {/* Newsletter Signup Widget */}
-              <div className="sidebar-widget bg-gradient-to-br from-[#007fff]/10 to-[#007fff]/10 border-[#007fff]/20">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">📧 Beauty Insider Alerts</h3>
+              <div className="sidebar-widget bg-gradient-to-br from-[#22A152]/10 to-[#22A152]/10 border-[#22A152]/20">
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">📧 Beauty Insider Alerts</h3>
                 <p className="text-sm mb-2">Get exclusive access to breakthrough beauty discoveries before they go viral!</p>
                 <div className="klaviyo-form-TbbXfi"></div>
                 <p className="text-xs text-news-muted mt-2">Join 50,000+ beauty insiders. Unsubscribe anytime.</p>
               </div>
 
               {/* Urgency Widget - Updated to Red Theme */}
-              <div className="sidebar-widget bg-[#007fff]/10 border-[#007fff]/20">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">⏰ 24-Hour Flash Sale</h3>
+              <div className="sidebar-widget bg-[#22A152]/10 border-[#22A152]/20">
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">⏰ 24-Hour Flash Sale</h3>
                 <p className="text-sm mb-4">Editorial readers get 40% off, but this deal expires at midnight!</p>
                 <a href={destinationUrl} className="editorial-cta w-full justify-center">
                   Claim Flash Discount →
@@ -593,7 +593,7 @@ const Index = ({destinationUrl}) => {
 
         {/* Ingredients Section */}
         <section id="ingredients" className="content-section">
-          <h2 className="news-headline text-3xl font-bold text-center text-[#007fff] mb-2">
+          <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
             🔥 The "Fountain of Youth" Formula Decoded
           </h2>
           <p className="text-center text-news-muted mb-6">
@@ -664,14 +664,14 @@ const Index = ({destinationUrl}) => {
             ].map((ing) => (
               <div
                 key={ing.name}
-                className="relative border-2 border-[#007fff] rounded-lg p-4 bg-white flex flex-col justify-between"
+                className="relative border-2 border-[#22A152] rounded-lg p-4 bg-white flex flex-col justify-between"
               >
-                <span className="absolute top-2 right-2 text-[10px] font-semibold bg-[#007fff]/10 text-[#007fff] px-2 py-1 rounded-full">
+                <span className="absolute top-2 right-2 text-[10px] font-semibold bg-[#22A152]/10 text-[#22A152] px-2 py-1 rounded-full">
                   CLINIC FAVE
                 </span>
                 <div className="mb-4 text-center">
                   <div className="text-2xl mb-2">{ing.icon}</div>
-                  <h3 className="text-lg font-bold text-[#007fff]">{ing.name}</h3>
+                  <h3 className="text-lg font-bold text-[#22A152]">{ing.name}</h3>
                   <p className="text-sm text-news-muted mt-1">
                     {ing.desc.map((line, i) => (
                       <span key={i}>
@@ -682,7 +682,7 @@ const Index = ({destinationUrl}) => {
                   </p>
                 </div>
                 <div className="text-center mt-auto">
-                  <span className="inline-block bg-[#007fff] text-white text-xs font-semibold px-2 py-1 rounded">
+                  <span className="inline-block bg-[#22A152] text-white text-xs font-semibold px-2 py-1 rounded">
                     CLINIC PRICE: {ing.price}
                   </span>
                 </div>
@@ -693,7 +693,7 @@ const Index = ({destinationUrl}) => {
 
         {/* Customer Reviews Section */}
         <section className="mt-16 mb-8">
-          <h2 className="news-headline text-3xl font-bold text-center text-[#007fff] mb-2">
+          <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
             Real Customer Reviews
           </h2>
           <p className="text-center text-news-muted mb-6">
@@ -746,7 +746,7 @@ const Index = ({destinationUrl}) => {
             ].map(review => (
               <div
                 key={review.name}
-                className="p-4 border border-[#007fff]/20 rounded-lg bg-white flex flex-col h-full"
+                className="p-4 border border-[#22A152]/20 rounded-lg bg-white flex flex-col h-full"
               >
                 <div className="flex items-center mb-4">
                   <a href={destinationUrl}>
@@ -760,7 +760,7 @@ const Index = ({destinationUrl}) => {
                   <div>
                     <p className="font-semibold">{review.name}</p>
                     <p className="text-sm text-news-muted">{review.info}</p>
-                    <span className="inline-block mt-1 bg-[#007fff] text-white text-xs px-2 py-1 rounded">
+                    <span className="inline-block mt-1 bg-[#22A152] text-white text-xs px-2 py-1 rounded">
                       ✓ Verified Purchase
                     </span>
                   </div>
@@ -804,15 +804,15 @@ const Index = ({destinationUrl}) => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
-                <p className="text-4xl font-bold text-[#007fff] mb-2">94%</p>
+                <p className="text-4xl font-bold text-[#22A152] mb-2">94%</p>
                 <p className="text-sm text-news-muted">Visible improvement in 2 weeks</p>
               </div>
               <div>
-                <p className="text-4xl font-bold text-[#007fff] mb-2">98%</p>
+                <p className="text-4xl font-bold text-[#22A152] mb-2">98%</p>
                 <p className="text-sm text-news-muted">Would recommend to friends</p>
               </div>
               <div>
-                <p className="text-4xl font-bold text-[#007fff] mb-2">91%</p>
+                <p className="text-4xl font-bold text-[#22A152] mb-2">91%</p>
                 <p className="text-sm text-news-muted">Plan to repurchase</p>
               </div>
             </div>
@@ -919,7 +919,7 @@ const Index = ({destinationUrl}) => {
               />
             </div>
             <h3 className="text-xl font-bold mb-2">CaviArgan Wrinkle Reducer</h3>
-            <p className="text-lg font-semibold text-[#007fff] mb-6">Special Editorial Price - 40% Off!</p>
+            <p className="text-lg font-semibold text-[#22A152] mb-6">Special Editorial Price - 40% Off!</p>
             <div className="space-y-4">
               <a href={destinationUrl} className="editorial-cta-large text-xl px-8 py-4 w-full justify-center">
                 CLAIM YOUR JAR NOW →
@@ -942,29 +942,29 @@ const Index = ({destinationUrl}) => {
         {/* Footer Links */}
         <footer className="mt-4 text-center text-xs text-news-muted">
           <div className="flex flex-wrap justify-center gap-x-2 gap-y-1">
-            <a href="https://caviargan.com/contact" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/contact" className="hover:text-[#22A152]">
               Contact Us
             </a>
             <span>|</span>
-            <a href="https://caviargan.com/terms" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/terms" className="hover:text-[#22A152]">
               Terms and Conditions
             </a>
             <span>|</span>
-            <a href="https://caviargan.com/privacy" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/privacy" className="hover:text-[#22A152]">
               Privacy Policy
             </a>
             <span>|</span>
-            <a href="https://caviargan.com/refund" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/refund" className="hover:text-[#22A152]">
               Refund Policy
             </a>
             <span>|</span>
-            <a href="https://caviargan.com/shipping" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/shipping" className="hover:text-[#22A152]">
               Shipping Policy
             </a>
             <span>|</span>
             <a
               href="https://streamline.everflowclient.io/affiliate/signup"
-              className="hover:text-[#007fff]"
+              className="hover:text-[#22A152]"
             >
               AFFILIATE SIGN UP
             </a>
@@ -975,7 +975,7 @@ const Index = ({destinationUrl}) => {
         {/* Floating Order Button */}
         <a
           href={destinationUrl}
-          className="fixed bottom-0 left-0 right-0 z-50 block w-full text-center text-white font-semibold py-3 bg-[#007fff]"
+          className="fixed bottom-0 left-0 right-0 z-50 block w-full text-center text-white font-semibold py-3 bg-[#22A152]"
         >
           ORDER NOW - Up to 75% OFF + FREE Gua sha set! ($70 value)
         </a>

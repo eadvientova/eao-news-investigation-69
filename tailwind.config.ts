@@ -28,9 +28,9 @@ export default {
 				'news-text': 'hsl(var(--news-text))',
 				'news-muted': 'hsl(var(--news-muted))',
 				'news-border': 'hsl(var(--news-border))',
-				'news-accent': 'hsl(var(--news-accent))',
-				'breaking-blue': 'hsl(var(--breaking-blue))',
-				'editor-blue': 'hsl(var(--editor-blue))',
+                                'news-accent': 'hsl(var(--news-accent))',
+                                'breaking-green': 'hsl(var(--breaking-green))',
+                                'editor-green': 'hsl(var(--editor-green))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
