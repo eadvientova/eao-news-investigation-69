@@ -18,7 +18,7 @@ window.onload = function () {
   const sub4 = EF.urlParameter("sub4") || "";
   const sub5 = EF.urlParameter("sub5") || "";
   const uid = EF.urlParameter("uid") || "159";
-  const source_id = EF.urlParameter("source_id") || "caviargan-news-investigation-blue-oli";
+  const source_id = EF.urlParameter("source_id") || "caviargan-news-investigation-green-oli";
 
   if (offer_id) {
     for (var i = 0; i < elems.length; i++) {
