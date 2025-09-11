@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import BeautyUpsell from "./pages/BeautyUpsell";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +18,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index destinationUrl="https://caviargan.com" />} />
           <Route path="/ckv2" element={<Index destinationUrl="https://caviargan.com/checkout/v2" />} />
+          <Route path="/beauty-upsell" element={<BeautyUpsell destinationUrl="https://caviargan.com/essence" />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
