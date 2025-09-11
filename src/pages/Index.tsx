@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-const heroImage = "/lovable-uploads/b8eb35c2-2313-483e-bda7-2009a07410d9.png";
-import dermatologistRealistic from "@/assets/dermatologist-realistic.jpg";
+import heroImage from "@/assets/dermatologist-realistic.jpg";
 
 const Index = ({destinationUrl}) => {
   const [orderCount, setOrderCount] = useState(137);
@@ -59,16 +58,16 @@ const Index = ({destinationUrl}) => {
             Fox Lifestyle Exclusive: Essence of Argan Oil Wipes Wrinkles Overnight
           </p>
           <div className="relative w-full max-w-4xl mx-auto">
-            <img 
-              src={heroImage} 
-              alt="Before and after comparison showing botox injection vs natural skincare results with CaviArgan cream" 
+            <img
+              src={heroImage}
+              alt="Dermatologist shocked by Essence of Argan Oil's wrinkle-erasing results"
               className="hero-image rounded-lg shadow-lg"
               fetchPriority="high"
               loading="eager"
               width="1200"
               height="675"
             />
-            <p className="text-sm text-news-muted mt-2 italic">Dramatic before and after comparison: Botox treatment vs. CaviArgan cream results showing natural anti-aging transformation</p>
+            <p className="text-sm text-news-muted mt-2 italic">Dermatologists stunned as Essence of Argan Oil wipes wrinkles overnight</p>
           </div>
 
           {/* First CTA */}
