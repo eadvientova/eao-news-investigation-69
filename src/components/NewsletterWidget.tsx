@@ -4,12 +4,12 @@ interface NewsletterWidgetProps {
 
 const NewsletterWidget = ({ className = "" }: NewsletterWidgetProps) => {
   return (
-    <div className={`sidebar-widget bg-gradient-to-br from-[#007fff]/10 to-[#007fff]/5 border-[#007fff]/30 ${className}`}>
+    <div className={`sidebar-widget bg-gradient-to-br from-[#22A152]/10 to-[#22A152]/5 border-[#22A152]/30 ${className}`}>
       <div className="flex items-center gap-2 mb-3">
-        <div className="w-6 h-6 rounded-full bg-[#007fff] flex items-center justify-center flex-shrink-0">
+        <div className="w-6 h-6 rounded-full bg-[#22A152] flex items-center justify-center flex-shrink-0">
           <span className="text-white text-xs">📧</span>
         </div>
-        <h3 className="text-lg font-bold text-[#007fff]">Breaking News Alerts</h3>
+        <h3 className="text-lg font-bold text-[#22A152]">Breaking News Alerts</h3>
       </div>
       
       <p className="text-sm text-news-text mb-4 leading-relaxed">
@@ -24,9 +24,9 @@ const NewsletterWidget = ({ className = "" }: NewsletterWidgetProps) => {
           <input
             type="email"
             placeholder="Email"
-            className="w-full px-3 py-2 border border-[#007fff]/30 rounded focus:outline-none focus:ring-2 focus:ring-[#007fff]/50 focus:border-[#007fff] text-sm"
+            className="w-full px-3 py-2 border border-[#22A152]/30 rounded focus:outline-none focus:ring-2 focus:ring-[#22A152]/50 focus:border-[#22A152] text-sm"
           />
-          <button className="w-full bg-[#22c55e] hover:bg-[#16a34a] text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
+          <button className="w-full bg-[#22A152] hover:bg-[#1d8745] text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
             Subscribe
           </button>
         </div>
