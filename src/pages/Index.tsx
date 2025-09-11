@@ -53,10 +53,10 @@ const Index = ({destinationUrl}) => {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="news-headline text-4xl md:text-5xl lg:text-6xl font-bold text-news-text mb-4">
-            Breaking: Dermatologists Stunned by Essence of Argan Oil Results
+            Breaking: Essence of Argan Oil Outsells Botox—Derms Panic!
           </h1>
           <p className="news-subhead text-xl md:text-2xl text-news-muted mb-6">
-            Fox Lifestyle – Special Investigation: Revolutionary peptide formula creating buzz across beauty forums for its ability to smooth wrinkles, fade dark circles, and deliver all-day hydration without harsh retinol
+            Fox Lifestyle Exclusive: Essence of Argan Oil Wipes Wrinkles Overnight
           </p>
           <div className="relative w-full max-w-4xl mx-auto">
             <img 
