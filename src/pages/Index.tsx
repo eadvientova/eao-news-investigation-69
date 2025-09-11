@@ -94,33 +94,33 @@ const Index = ({destinationUrl}) => {
             {/* Opening Story */}
             <div className="mb-8">
               <p className="news-body text-lg mb-4">
-                For years, the beauty industry has convinced women they need five different products: an eye cream, a night cream, a neck cream, a wrinkle serum, and a spot corrector. But what if one single cream could replace them all?
+                For years, the beauty industry has convinced women they need five different products: an eye cream, a night cream, a neck cream, a wrinkle serum, and a spot corrector. But what if one single oil could replace them all?
               </p>
-              
+
               <p className="news-body text-lg mb-4">
-                Enter <strong>CaviArgan Cream</strong>—a breakthrough peptide-rich formula that women are calling "the only product I need anymore."
+                Enter <strong>Essence of Argan Oil</strong>—a pure Moroccan elixir that women are calling "the only product I need anymore."
               </p>
 
               <div className="editorial-cta inline-block mb-6">
                 <a href={destinationUrl} className="editorial-cta-large">
-                  Editor's Pick: Try CaviArgan Cream Before It's Gone →
+                  Editor's Pick: Try Essence of Argan Oil Before It's Gone →
                 </a>
               </div>
 
               <div className="fomo-box">
                 <p className="text-sm font-semibold mb-2">⚠️ Stock Alert</p>
-                <p className="text-sm">Only 2 jars per customer due to overwhelming demand. Just restocked after 3 sellouts this year.</p>
+                <p className="text-sm">Only 2 bottles per customer due to overwhelming demand. Just restocked after 3 sellouts this year.</p>
               </div>
 
               <p className="news-body text-lg mb-6">
-                This dermatologist-approved cream is already creating buzz across beauty forums for its ability to:
+                This dermatologist-approved oil is already creating buzz across beauty forums for its ability to:
               </p>
 
               <ul className="list-disc list-inside space-y-2 mb-8 text-lg">
                 <li>Smooth wrinkles & fine lines (without harsh retinol)</li>
                 <li>Fade dark circles & neck lines</li>
                 <li>Erase age spots & sun damage</li>
-                <li>Plump crepey skin on the face, neck, and arms</li>
+                <li>Plump & nourish skin on the face, neck, and arms</li>
                 <li>Deliver all-day hydration & a radiant glow</li>
               </ul>
             </div>
@@ -130,15 +130,15 @@ const Index = ({destinationUrl}) => {
               <a href={destinationUrl}>
                 <img
                   src="/lovable-uploads/57ec8d87-4b32-47a3-956b-b364ec7b99de.png"
-                  alt="CaviArgan Cream luxury jar with elegant black packaging showing Wrinkle Reducer formula"
+                  alt="Essence of Argan Oil amber bottle with golden glow showing pure Moroccan formula"
                   className="image-responsive max-w-md w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
                   loading="lazy"
                   width="400"
                   height="400"
                 />
               </a>
-              <p className="text-sm text-news-muted mt-3 italic">The breakthrough CaviArgan Wrinkle Reducer that's selling out nationwide</p>
-              
+              <p className="text-sm text-news-muted mt-3 italic">The breakthrough Essence of Argan Oil that's selling out nationwide</p>
+
               {/* Inline CTA */}
               <div className="mt-6">
                 <a href={destinationUrl} className="editorial-cta">
@@ -156,7 +156,7 @@ const Index = ({destinationUrl}) => {
               </p>
 
               <p className="news-body text-lg mb-4">
-                CaviArgan takes anti-aging to the next level. By combining Caviar, Retinol, Argan Oil, Matrixyl®, Aquaxyl™, and advanced Peptides, this powerhouse cream attacks aging on multiple fronts: boosting collagen, locking in hydration, and repairing skin at the cellular level.
+                Essence of Argan Oil takes anti-aging to the next level. Packed with pure Moroccan argan, Retinol, Matrixyl®, Aquaxyl™, and advanced peptides, this powerhouse oil attacks aging on multiple fronts: boosting collagen, locking in hydration, and repairing skin at the cellular level.
               </p>
 
               <div className="pull-quote-large">
