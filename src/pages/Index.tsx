@@ -9,11 +9,11 @@ const Index = ({destinationUrl}) => {
   // Sidebar sticky management handled via CSS
   
   const tickerMessages = [
-    "BREAKING: Dermatologists Stunned by This One-Step Cream",
-    "TRENDING: Beauty Forums Exploding With Reviews",
-    "ALERT: CaviArgan Cream Sells Out in 72 Hours",
-    "URGENT: Major Breakthrough in Anti-Aging Science",
-    "EXCLUSIVE: Revolutionary Formula Replacing 5 Products"
+    "BREAKING: Essence of Argan Oil Outsells Botox Nationwide",
+    "ALERT: Overnight Argan Oil Results Stun Dermatologists",
+    "TRENDING: Essence of Argan Oil Ignites Wrinkle-Free Craze",
+    "EXCLUSIVE: Moroccan Argan Oil Stock Plummets After Surge",
+    "URGENT: Claim Essence of Argan Oil Before Supplies Vanish"
   ];
 
   useEffect(() => {
