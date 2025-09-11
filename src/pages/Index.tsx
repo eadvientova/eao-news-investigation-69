@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-const heroImage = "/lovable-uploads/b8eb35c2-2313-483e-bda7-2009a07410d9.png";
+import dermatologistRealistic from "@/assets/dermatologist-realistic.jpg";
+const heroImage = dermatologistRealistic;
 
 const Index = ({destinationUrl}) => {
   const [orderCount, setOrderCount] = useState(137);
@@ -60,14 +61,14 @@ const Index = ({destinationUrl}) => {
           <div className="relative w-full max-w-4xl mx-auto">
             <img
               src={heroImage}
-              alt="Before-and-after results comparing Botox to Essence of Argan Oil"
+              alt="Dermatologist stunned by Essence of Argan Oil's wrinkle reversal"
               className="hero-image rounded-lg shadow-lg"
               fetchPriority="high"
               loading="eager"
               width="1200"
               height="675"
             />
-            <p className="text-sm text-news-muted mt-2 italic">Real users show Essence of Argan Oil rivaling Botox in visible wrinkle reduction</p>
+            <p className="text-sm text-news-muted mt-2 italic">Skin specialist shocked as Essence of Argan Oil outperforms Botox</p>
           </div>
 
           {/* First CTA */}
