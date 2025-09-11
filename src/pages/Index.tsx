@@ -94,11 +94,11 @@ const Index = ({destinationUrl}) => {
             {/* Opening Story */}
             <div className="mb-8">
               <p className="news-body text-lg mb-4">
-                For years, the beauty industry has convinced women they need five different products: an eye cream, a night cream, a neck cream, a wrinkle serum, and a spot corrector. But what if one single oil could replace them all?
+                BREAKING: The five-jar routine is over. One Moroccan oil just made every eye cream, serum, and night lotion obsolete.
               </p>
 
               <p className="news-body text-lg mb-4">
-                Enter <strong>Essence of Argan Oil</strong>—a pure Moroccan elixir that women are calling "the only product I need anymore."
+                Reporters are calling <strong>Essence of Argan Oil</strong> the 100% natural, all-in-one formula that replaces them all—could this be the last product you'll ever need?
               </p>
 
               <div className="editorial-cta inline-block mb-6">
