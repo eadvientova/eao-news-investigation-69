@@ -53,7 +53,7 @@ const Index = ({destinationUrl}) => {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="news-headline text-4xl md:text-5xl lg:text-6xl font-bold text-news-text mb-4">
-            Better Than Botox? The Cream With Caviar and Argan Oil That Erases Years in Weeks
+            Better Than Botox? The Essence of Argan Oil That Erases Years in Weeks
           </h1>
           <p className="news-subhead text-xl md:text-2xl text-news-muted mb-6">
             Fox Lifestyle – Special Investigation: Revolutionary peptide formula creating buzz across beauty forums for its ability to smooth wrinkles, fade dark circles, and deliver all-day hydration without harsh retinol
