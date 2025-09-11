@@ -9,7 +9,7 @@ const NewsletterWidget = ({ className = "" }: NewsletterWidgetProps) => {
         <div className="w-6 h-6 rounded-full bg-[#007fff] flex items-center justify-center flex-shrink-0">
           <span className="text-white text-xs">📧</span>
         </div>
-        <h3 className="text-lg font-bold text-[#007fff]">Beauty Insider Alerts</h3>
+        <h3 className="text-lg font-bold text-[#007fff]">Breaking News Alerts</h3>
       </div>
       
       <p className="text-sm text-news-text mb-4 leading-relaxed">
