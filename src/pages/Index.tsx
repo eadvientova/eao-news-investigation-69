@@ -104,7 +104,7 @@ const Index = ({destinationUrl}) => {
 
               <div className="editorial-cta inline-block mb-6">
                 <a href={destinationUrl} className="editorial-cta-large">
-                  Editor's Pick: Try Essence of Argan Oil Before It's Gone →
+                  Breaking News Pick: Try Essence of Argan Oil Before It's Gone →
                 </a>
               </div>
 
@@ -373,7 +373,7 @@ const Index = ({destinationUrl}) => {
             <div className="lg:sticky lg:bottom-0">
               {/* Quick Facts Widget */}
               <div className="sidebar-widget">
-                <div className="editor-pick mb-4">Editor's Pick</div>
+                <div className="editor-pick mb-4">Breaking News Pick</div>
                 <h3 className="news-subhead text-xl font-bold mb-4">Quick Facts</h3>
                 <ul className="space-y-3 text-sm">
                   <li><strong>Formula:</strong> Retinol + Caviar + Pure Argan Oil</li>
