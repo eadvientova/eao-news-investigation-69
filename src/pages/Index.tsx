@@ -594,98 +594,36 @@ const Index = ({destinationUrl}) => {
         {/* Ingredients Section */}
         <section id="ingredients" className="content-section">
           <h2 className="news-headline text-3xl font-bold text-center text-[#007fff] mb-2">
-            🔥 The "Fountain of Youth" Formula Decoded
+            🔥 Only One Ingredient
           </h2>
           <p className="text-center text-news-muted mb-6">
-            Valued at $25,000+ per treatment in Beverly Hills
+            ONLY ONE INGREDIENT: 100% pure organic Argania spinosa (Argan) kernel oil, the same that has been used for centuries in Morocco. ECO-CERTIFIED in source and origin and USDA-approved.
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                icon: "🐟",
-                name: "Caviar Extract",
-                desc: [
-                  "Rich in omega fatty acids & antioxidants",
-                  "Shields skin from UVA/UVB damage",
-                  "Delivers deep, long-lasting moisture for a luminous glow",
-                ],
-                price: "$1,200+",
-              },
-              {
-                icon: "🌿",
-                name: "Organic Moroccan Argan Oil",
-                desc: [
-                  "Packed with Vitamin E & essential fatty acids",
-                  "Restores elasticity and smooths rough patches",
-                  "Calms stressed skin with anti-inflammatory properties",
-                ],
-                price: "$950+",
-              },
-              {
-                icon: "🔬",
-                name: "Retinol (Vitamin A)",
-                desc: [
-                  "Stimulates collagen to reduce wrinkles",
-                  "Improves skin tone & texture",
-                  "Clinically proven to smooth fine lines",
-                ],
-                price: "$850+",
-              },
-              {
                 icon: "💧",
-                name: "Aquaxyl™",
-                desc: [
-                  "Locks in hydration for a youthful, dewy look",
-                  "Plumps and restores skin's barrier",
-                  "Repairs cracked, dry, or crepey skin",
-                ],
-                price: "$650+",
+                title: "Deeply Nourishing",
+                desc: "Rich in vitamin E and essential fatty acids to moisturize and soften skin and hair.",
               },
               {
-                icon: "🧪",
-                name: "Matrixyl® & Matrixyl Synthe’6™",
-                desc: [
-                  "Advanced peptides fight deep wrinkles",
-                  "Boost skin’s repair mechanisms for firmness",
-                  "Visibly shrink pores & smooth texture",
-                ],
-                price: "$1,100+",
+                icon: "🌱",
+                title: "Cold-Pressed & Sustainable",
+                desc: "Carefully extracted to preserve antioxidants while supporting Moroccan women's cooperatives.",
               },
               {
-                icon: "🧬",
-                name: "Peptides",
-                desc: [
-                  "Signal skin to produce more collagen & elastin",
-                  "Help strengthen the skin barrier and improve resilience",
-                  "Reduce the look of sagging and dullness for firmer, smoother skin",
-                ],
-                price: "$1,000+",
+                icon: "✨",
+                title: "Versatile Beauty Oil",
+                desc: "Helps reduce the appearance of fine lines, tames frizz, and strengthens brittle nails.",
               },
-            ].map((ing) => (
+            ].map((item) => (
               <div
-                key={ing.name}
-                className="relative border-2 border-[#007fff] rounded-lg p-4 bg-white flex flex-col justify-between"
+                key={item.title}
+                className="border-2 border-[#007fff] rounded-lg p-4 bg-white flex flex-col text-center"
               >
-                <span className="absolute top-2 right-2 text-[10px] font-semibold bg-[#007fff]/10 text-[#007fff] px-2 py-1 rounded-full">
-                  CLINIC FAVE
-                </span>
-                <div className="mb-4 text-center">
-                  <div className="text-2xl mb-2">{ing.icon}</div>
-                  <h3 className="text-lg font-bold text-[#007fff]">{ing.name}</h3>
-                  <p className="text-sm text-news-muted mt-1">
-                    {ing.desc.map((line, i) => (
-                      <span key={i}>
-                        {line}
-                        {i < ing.desc.length - 1 && <br />}
-                      </span>
-                    ))}
-                  </p>
-                </div>
-                <div className="text-center mt-auto">
-                  <span className="inline-block bg-[#007fff] text-white text-xs font-semibold px-2 py-1 rounded">
-                    CLINIC PRICE: {ing.price}
-                  </span>
-                </div>
+                <div className="text-2xl mb-2">{item.icon}</div>
+                <h3 className="text-lg font-bold text-[#007fff]">{item.title}</h3>
+                <p className="text-sm text-news-muted mt-1">{item.desc}</p>
               </div>
             ))}
           </div>
