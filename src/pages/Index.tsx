@@ -95,7 +95,7 @@ const Index = ({destinationUrl}) => {
             {/* Opening Story */}
             <div className="mb-8">
               <p className="news-body text-lg mb-4">
-                BREAKING: The five-jar routine is over. One Moroccan oil just made every eye cream, serum, and night lotion obsolete.
+                BREAKING: Five jars are cancelled—Essence of Argan Oil erases wrinkles overnight and leaves Botox shaking.
               </p>
 
               <p className="news-body text-lg mb-4">
