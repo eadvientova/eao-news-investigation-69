@@ -74,7 +74,7 @@ const Index = ({destinationUrl}) => {
           {/* First CTA */}
           <div className="text-center mt-6">
             <a href={destinationUrl} className="editorial-cta-large">
-              🔥 Get Your Breakthrough Cream Now →
+              🔥 Get Essence of Argan Oil—Wrinkles Gone Tonight →
             </a>
           </div>
         </div>
