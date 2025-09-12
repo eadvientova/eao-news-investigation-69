@@ -536,24 +536,21 @@ const Index = ({destinationUrl}) => {
 
               {/* Additional Sidebar Content */}
               <div className="sidebar-widget">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">🔥 What's Hot Right Now</h3>
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">What's Hot Right Now</h3>
                 <div className="space-y-4">
-                  <div className="flex items-center gap-3 p-3 bg-[#22A152]/10 rounded-lg">
-                    <span className="text-2xl">📈</span>
+                  <div className="p-3 bg-[#22A152]/10 rounded-lg">
                     <div>
                       <h4 className="font-semibold text-sm">Anti-Aging Market Explodes</h4>
                       <p className="text-xs text-news-muted">Peptide creams see 400% surge in demand</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 p-3 bg-[#22A152]/10 rounded-lg">
-                    <span className="text-2xl">🧪</span>
+                  <div className="p-3 bg-[#22A152]/10 rounded-lg">
                     <div>
                       <h4 className="font-semibold text-sm">Lab Results Shock Scientists</h4>
                       <p className="text-xs text-news-muted">New formula shows unprecedented results</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 p-3 bg-[#22A152]/10 rounded-lg">
-                    <span className="text-2xl">👩‍⚕️</span>
+                  <div className="p-3 bg-[#22A152]/10 rounded-lg">
                     <div>
                       <h4 className="font-semibold text-sm">Dermatologists Recommend</h4>
                       <p className="text-xs text-news-muted">94% of experts endorse peptide therapy</p>
