@@ -428,7 +428,7 @@ const Index = ({destinationUrl}) => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-sm mb-1">Can I use it with other products?</h4>
-                    <p className="text-sm text-news-muted">Yes, but many find they can replace multiple products with just this one.</p>
+                    <p className="text-sm text-news-muted">Yes—but headlines say you'll toss the rest; this argan breakthrough replaces eye cream, serum, and night lotion.</p>
                   </div>
                 </div>
               </div>
