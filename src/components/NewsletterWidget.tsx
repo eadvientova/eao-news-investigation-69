@@ -18,15 +18,15 @@ const NewsletterWidget = ({ className = "" }: NewsletterWidgetProps) => {
       
       <div className="space-y-3">
         <div className="klaviyo-form-TbbXfi"></div>
-        
+
         {/* Fallback form if Klaviyo doesn't load */}
-        <div className="space-y-3">
+        <div className="flex gap-2">
           <input
             type="email"
             placeholder="Email"
-            className="w-full px-3 py-2 border border-[#22A152]/30 rounded focus:outline-none focus:ring-2 focus:ring-[#22A152]/50 focus:border-[#22A152] text-sm"
+            className="flex-1 px-3 py-2 border border-[#22A152]/30 rounded focus:outline-none focus:ring-2 focus:ring-[#22A152]/50 focus:border-[#22A152] text-sm"
           />
-          <button className="w-full bg-[#22A152] hover:bg-[#1d8745] text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
+          <button className="bg-[#22A152] hover:bg-[#1d8745] text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm whitespace-nowrap">
             Subscribe
           </button>
         </div>
