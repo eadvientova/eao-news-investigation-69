@@ -341,7 +341,7 @@ const Index = ({destinationUrl}) => {
                 <a href={destinationUrl}>
                   <img
                     src="/lovable-uploads/0ed2da4a-c6d4-408d-b79a-6701d3b1d4fc.png"
-                    alt="Before and after comparison showing CaviArgan cream results with dramatic reduction in fine lines and improved skin texture"
+                    alt="Before and after comparison showing Essence of Argan Oil results with dramatic reduction in fine lines and improved skin texture"
                     className="image-responsive max-w-2xl w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
                     loading="lazy"
                     width="800"
@@ -389,13 +389,13 @@ const Index = ({destinationUrl}) => {
                 <div className="editor-pick mb-4">Trending Now</div>
                 <img
                   src="/lovable-uploads/86450785-7fc7-4365-86bc-00492d01b571.png"
-                  alt="CaviArgan Wrinkle Reducer cream jar with luxury packaging"
+                  alt="Essence of Argan Oil bottle with luxury packaging"
                   className="image-responsive max-w-xs mb-4 w-full h-auto"
                   loading="lazy"
                   width="300"
                   height="450"
                 />
-                <h4 className="font-bold mb-2">CaviArgan Wrinkle Reducer</h4>
+                <h4 className="font-bold mb-2">Essence of Argan Oil</h4>
                 <p className="text-sm text-news-muted mb-4">The breakthrough formula dermatologists recommend</p>
                 <a href={destinationUrl} className="editorial-cta w-full justify-center mb-3">
                   Check Availability →
@@ -438,18 +438,18 @@ const Index = ({destinationUrl}) => {
               <div className="sidebar-widget">
                 <h3 className="news-subhead text-xl font-bold mb-6">Related Stories</h3>
 
-                {/* CaviArgan Article */}
+                {/* Essence of Argan Article */}
                 <a
                   href="https://www.beverlyhillsscoops.com"
                   className="block border-b border-gray-200 pb-6 mb-6 group"
                 >
                   <img
                     src="/lovable-uploads/1554c539-cd88-45fd-a732-3a457ca6ea44.png"
-                    alt="Woman holding CaviArgan cream with radiant skin"
+                    alt="Woman holding Essence of Argan Oil with radiant skin"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
                   <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
-                    SHOCKING: This $39 CaviArgan Cream Outperforms $300 Luxury Brands
+                    SHOCKING: This $39 Essence of Argan Oil Outperforms $300 Luxury Brands
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     Celebrity makeup artists reveal the affordable secret behind Hollywood's glow that's causing luxury brands to panic...
@@ -815,14 +815,14 @@ const Index = ({destinationUrl}) => {
           <div className="image-container">
             <img
               src="/lovable-uploads/f9ec9638-ff55-42f3-b409-bd4984a4555a.png"
-              alt="Happy woman proudly displaying her CaviArgan Wrinkle Reducer cream with confident smile and cream on hand"
+              alt="Happy woman proudly displaying her Essence of Argan Oil with confident smile and bottle in hand"
               className="image-responsive max-w-lg w-full h-auto"
               loading="lazy"
               width="600"
               height="800"
             />
             <p className="text-sm text-news-muted mt-3 italic">
-              Lisa, 34, says CaviArgan transformed her confidence and simplified her entire skincare routine
+              Lisa, 34, says Essence of Argan transformed her confidence and simplified her entire skincare routine
             </p>
           </div>
           {/* Another CTA */}
@@ -959,7 +959,7 @@ const Index = ({destinationUrl}) => {
               AFFILIATE SIGN UP
             </a>
           </div>
-          <div className="mt-1">© 2025 CaviArgan. All Rights Reserved</div>
+          <div className="mt-1">© 2025 Essence of Argan. All Rights Reserved</div>
         </footer>
 
         {/* Floating Order Button */}
