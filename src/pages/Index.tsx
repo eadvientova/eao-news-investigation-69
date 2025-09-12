@@ -649,9 +649,9 @@ const Index = ({destinationUrl}) => {
             ].map((ing) => (
               <div
                 key={ing.name.join(" ")}
-                className="relative border-2 border-[#22A152] rounded-lg p-4 bg-white flex flex-col justify-between"
+                className="relative border-2 border-[#22A152] rounded-lg px-4 pt-8 pb-4 bg-white flex flex-col justify-between"
               >
-                <span className="absolute top-2 right-2 text-[10px] font-semibold bg-[#22A152]/10 text-[#22A152] px-2 py-1 rounded-full">
+                <span className="absolute top-2 left-2 text-[10px] font-semibold bg-[#22A152]/10 text-[#22A152] px-2 py-1 rounded-full">
                   CLINIC FAVE
                 </span>
                 <div className="mb-4 text-center">
