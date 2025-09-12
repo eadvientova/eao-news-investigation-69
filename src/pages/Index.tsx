@@ -293,7 +293,7 @@ const Index = ({destinationUrl}) => {
               {/* Mid-article CTA */}
               <div className="text-center mt-6 mb-8">
                 <a href={destinationUrl} className="editorial-cta-success">
-                  ✅ Dermatologist Recommended - Order Now →
+                  Dermatologist Recommended - Order Now →
                 </a>
               </div>
             </div>
