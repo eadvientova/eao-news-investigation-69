@@ -255,7 +255,7 @@ const Index = ({destinationUrl}) => {
               </div>
               <div className="bg-[#22A152]/10 rounded-lg p-6 mt-8">
                 <h3 className="text-2xl font-bold text-center text-[#22A152] mb-4">
-                  CLINICAL SHOCK: JOURNAL CONFIRMS ARGAN OIL BEATS BOTOX
+                  RESEARCH SHOCK: JOURNAL CONFIRMS ARGAN OIL BEATS BOTOX
                 </h3>
                 <p className="text-center text-news-muted mb-6">
                   Published in the International Journal of Cosmetic Science and backed by independent dermatologists,
