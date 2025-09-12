@@ -182,10 +182,10 @@ const Index = ({destinationUrl}) => {
             {/* Clinical Results */}
             <section className="mb-8">
               <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
-                Clinical Before & After Results
+                Clinical Shock: Argan Oil Erases Years in 28 Days
               </h2>
               <p className="text-center text-news-muted mb-6">
-                Independent clinical studies document the remarkable transformation achieved in just 28 days of use.
+                Independent trials reveal Essence of Argan Oil wipes out years of damage in just four weeks.
               </p>
               <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr">
                 {[
