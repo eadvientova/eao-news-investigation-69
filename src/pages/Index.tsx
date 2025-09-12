@@ -684,10 +684,10 @@ const Index = ({destinationUrl}) => {
         {/* Customer Reviews Section */}
         <section className="mt-16 mb-8">
           <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
-            Real Customer Reviews
+            Breaking: Real Users Swear by Essence of Argan Oil
           </h2>
           <p className="text-center text-news-muted mb-6">
-            See what our verified customers are saying about their CaviArgan experience
+            Verified buyers say crow’s feet, neck creases, and age spots vanished after one bottle
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
@@ -742,7 +742,7 @@ const Index = ({destinationUrl}) => {
                   <a href={destinationUrl}>
                     <img
                       src={review.img}
-                      alt={`${review.name} holding CaviArgan cream`}
+                      alt={`${review.name} holding Essence of Argan Oil`}
                       className="w-16 h-16 rounded-full object-cover mr-4 cursor-pointer hover:opacity-90 transition-opacity"
                       loading="lazy"
                     />
