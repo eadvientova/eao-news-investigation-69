@@ -770,7 +770,7 @@ const Index = ({destinationUrl}) => {
         {/* Beauty Revolution Section */}
         <section className="content-section">
           <h2 className="news-headline text-3xl font-bold text-center mb-4">
-            Join the Argan Oil Revolution
+            Be Part of the Argan Oil Breakthrough
           </h2>
           <p className="news-body text-lg text-center mb-6">
             Women worldwide are ditching five-step routines after Essence of Argan Oil's all-in-one miracle made headlines. See the jaw-dropping glow for yourself.
