@@ -95,7 +95,7 @@ const Index = ({destinationUrl}) => {
             {/* Opening Story */}
             <div className="mb-8">
               <p className="news-body text-lg mb-4">
-                BREAKING: Five jars are cancelled—Essence of Argan Oil erases wrinkles overnight and leaves Botox shaking.
+                BREAKING: The five-product routine is cancelled—one bottle of Essence of Argan Oil erases wrinkles overnight and leaves Botox shaking.
               </p>
 
               <p className="news-body text-lg mb-4">
@@ -777,10 +777,10 @@ const Index = ({destinationUrl}) => {
 
         {/* Why It's Different */}
         <div className="mb-8">
-          <h2 className="news-headline text-3xl font-bold mb-4">Why Essence of Argan Oil Replaces Every Jar</h2>
+          <h2 className="news-headline text-3xl font-bold mb-4">Why Essence of Argan Oil Replaces Every Product</h2>
 
           <p className="news-body text-lg mb-4">
-            Beauty giants push five separate jars—eye cream, neck cream, spot corrector, night lotion, wrinkle serum.
+            Beauty giants push five separate products—eye cream, neck cream, spot corrector, night lotion, wrinkle serum.
           </p>
 
           <p className="news-body text-lg mb-4">
@@ -810,7 +810,7 @@ const Index = ({destinationUrl}) => {
 
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-6">
             <p className="text-lg font-semibold mb-2">⚠️ Editor's Note:</p>
-            <p className="text-base">Due to overwhelming demand, new customers are limited to 2 jars per order. Once this batch is gone, shipping delays may last several weeks.</p>
+            <p className="text-base">Due to overwhelming demand, new customers are limited to 2 bottles per order. Once this batch is gone, shipping delays may last several weeks.</p>
           </div>
 
           <div className="fomo-box text-center">
