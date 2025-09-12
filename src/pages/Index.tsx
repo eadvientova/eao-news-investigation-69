@@ -591,30 +591,30 @@ const Index = ({destinationUrl}) => {
             <p className="text-news-muted mb-4">
               ONLY ONE INGREDIENT: 100% pure organic Argania spinosa (Argan) kernel oil, the same that has been used for centuries in Morocco. ECO-CERTIFIED in source and origin and USDA-approved.
             </p>
-            <ul className="text-left list-disc list-inside space-y-2">
-              <li>
+            <div className="text-left space-y-2">
+              <p>
                 NATURE’S GOLD ELIXIR: Essence of Argan is a 100% natural potent
                 rejuvenating and moisturizing oil thanks to its rich content of
                 fatty acids omega 3, 6, and 9 and powerful antioxidants vitamin E,
                 polyphenols, CoQ10, melatonin, and plant sterols.
-              </li>
-              <li>
+              </p>
+              <p>
                 A LITTLE GOES A LONG WAY: This non-greasy oil will glide on like
                 silk, getting absorbed without leaving any sticky feeling. A few
                 drops are enough to experience soft and smooth skin, hair, and
                 nails from head to toe.
-              </li>
-              <li>
+              </p>
+              <p>
                 ETHICALLY PRODUCED: By a cooperative of Moroccan women who keep
                 the Argan trees thriving on protected land.
-              </li>
-              <li>
+              </p>
+              <p>
                 BOTTLED WITH CONSCIENCE: Vegan, cruelty-free, paraben, peg,
                 sulfate, phthalate, gluten-free, synthetic fragrance, mineral
                 oil-free Argan oil packed in a shower-safe travel-friendly
                 bottle.
-              </li>
-            </ul>
+              </p>
+            </div>
           </div>
         </section>
 
