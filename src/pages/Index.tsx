@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-const heroImage = "/lovable-uploads/b8eb35c2-2313-483e-bda7-2009a07410d9.png";
 import dermatologistRealistic from "@/assets/dermatologist-realistic.jpg";
+const heroImage = dermatologistRealistic;
 
 const Index = ({destinationUrl}) => {
   const [orderCount, setOrderCount] = useState(137);
@@ -9,11 +9,11 @@ const Index = ({destinationUrl}) => {
   // Sidebar sticky management handled via CSS
   
   const tickerMessages = [
-    "BREAKING: Dermatologists Stunned by This One-Step Cream",
-    "TRENDING: Beauty Forums Exploding With Reviews",
-    "ALERT: CaviArgan Cream Sells Out in 72 Hours",
-    "URGENT: Major Breakthrough in Anti-Aging Science",
-    "EXCLUSIVE: Revolutionary Formula Replacing 5 Products"
+    "BREAKING: Essence of Argan Oil Outsells Botox Nationwide",
+    "ALERT: Overnight Argan Oil Results Stun Dermatologists",
+    "TRENDING: Essence of Argan Oil Ignites Wrinkle-Free Craze",
+    "EXCLUSIVE: Moroccan Argan Oil Stock Plummets After Surge",
+    "URGENT: Claim Essence of Argan Oil Before Supplies Vanish"
   ];
 
   useEffect(() => {
@@ -53,28 +53,28 @@ const Index = ({destinationUrl}) => {
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="news-headline text-4xl md:text-5xl lg:text-6xl font-bold text-news-text mb-4">
-            Better Than Botox? The Cream With Caviar and Argan Oil That Erases Years in Weeks
+            Breaking: Essence of Argan Oil Outsells Botox—Derms Panic!
           </h1>
           <p className="news-subhead text-xl md:text-2xl text-news-muted mb-6">
-            Fox Lifestyle – Special Investigation: Revolutionary peptide formula creating buzz across beauty forums for its ability to smooth wrinkles, fade dark circles, and deliver all-day hydration without harsh retinol
+            Fox Lifestyle Exclusive: Essence of Argan Oil Wipes Wrinkles Overnight
           </p>
           <div className="relative w-full max-w-4xl mx-auto">
-            <img 
-              src={heroImage} 
-              alt="Before and after comparison showing botox injection vs natural skincare results with CaviArgan cream" 
+            <img
+              src={heroImage}
+              alt="Dermatologist stunned by Essence of Argan Oil's wrinkle reversal"
               className="hero-image rounded-lg shadow-lg"
               fetchPriority="high"
               loading="eager"
               width="1200"
               height="675"
             />
-            <p className="text-sm text-news-muted mt-2 italic">Dramatic before and after comparison: Botox treatment vs. CaviArgan cream results showing natural anti-aging transformation</p>
+            <p className="text-sm text-news-muted mt-2 italic">Skin specialist shocked as Essence of Argan Oil outperforms Botox</p>
           </div>
 
           {/* First CTA */}
           <div className="text-center mt-6">
             <a href={destinationUrl} className="editorial-cta-large">
-              🔥 Get Your Breakthrough Cream Now →
+              🔥 Get Essence of Argan Oil—Wrinkles Gone Tonight →
             </a>
           </div>
         </div>
@@ -95,33 +95,33 @@ const Index = ({destinationUrl}) => {
             {/* Opening Story */}
             <div className="mb-8">
               <p className="news-body text-lg mb-4">
-                For years, the beauty industry has convinced women they need five different products: an eye cream, a night cream, a neck cream, a wrinkle serum, and a spot corrector. But what if one single cream could replace them all?
+                BREAKING: The five-product routine is cancelled—one bottle of Essence of Argan Oil erases wrinkles overnight and leaves Botox shaking.
               </p>
-              
+
               <p className="news-body text-lg mb-4">
-                Enter <strong>CaviArgan Cream</strong>—a breakthrough peptide-rich formula that women are calling "the only product I need anymore."
+                Reporters are calling <strong>Essence of Argan Oil</strong> the 100% natural, all-in-one formula that replaces them all—could this be the last product you'll ever need?
               </p>
 
               <div className="editorial-cta inline-block mb-6">
                 <a href={destinationUrl} className="editorial-cta-large">
-                  Editor's Pick: Try CaviArgan Cream Before It's Gone →
+                  Breaking News Pick: Try Essence of Argan Oil Before It's Gone →
                 </a>
               </div>
 
               <div className="fomo-box">
                 <p className="text-sm font-semibold mb-2">⚠️ Stock Alert</p>
-                <p className="text-sm">Only 2 jars per customer due to overwhelming demand. Just restocked after 3 sellouts this year.</p>
+                <p className="text-sm">Only 2 bottles per customer due to overwhelming demand. Just restocked after 3 sellouts this year.</p>
               </div>
 
               <p className="news-body text-lg mb-6">
-                This dermatologist-approved cream is already creating buzz across beauty forums for its ability to:
+                This dermatologist-approved oil is already creating buzz across beauty forums for its ability to:
               </p>
 
               <ul className="list-disc list-inside space-y-2 mb-8 text-lg">
                 <li>Smooth wrinkles & fine lines (without harsh retinol)</li>
                 <li>Fade dark circles & neck lines</li>
                 <li>Erase age spots & sun damage</li>
-                <li>Plump crepey skin on the face, neck, and arms</li>
+                <li>Plump & nourish skin on the face, neck, and arms</li>
                 <li>Deliver all-day hydration & a radiant glow</li>
               </ul>
             </div>
@@ -131,15 +131,15 @@ const Index = ({destinationUrl}) => {
               <a href={destinationUrl}>
                 <img
                   src="/lovable-uploads/57ec8d87-4b32-47a3-956b-b364ec7b99de.png"
-                  alt="CaviArgan Cream luxury jar with elegant black packaging showing Wrinkle Reducer formula"
+                  alt="Essence of Argan Oil amber bottle with golden glow showing pure Moroccan formula"
                   className="image-responsive max-w-md w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
                   loading="lazy"
                   width="400"
                   height="400"
                 />
               </a>
-              <p className="text-sm text-news-muted mt-3 italic">The breakthrough CaviArgan Wrinkle Reducer that's selling out nationwide</p>
-              
+              <p className="text-sm text-news-muted mt-3 italic">The breakthrough Essence of Argan Oil that's selling out nationwide</p>
+
               {/* Inline CTA */}
               <div className="mt-6">
                 <a href={destinationUrl} className="editorial-cta">
@@ -150,18 +150,18 @@ const Index = ({destinationUrl}) => {
 
             {/* Why Experts Section */}
             <div className="mb-8">
-              <h2 className="news-headline text-3xl font-bold mb-4">Why Experts Are Calling It the “Holy Grail of Anti-Aging”</h2>
+              <h2 className="news-headline text-3xl font-bold mb-4">Experts Panic: Essence of Argan Oil Named the “Holy Grail of Anti-Aging”</h2>
 
               <p className="news-body text-lg mb-4">
-                Retinol has always been praised as the gold standard for wrinkle reduction—but it often comes with peeling, irritation, and redness.
+                Retinol once ruled wrinkle relief, but dermatologists warn it often leaves skin peeling, irritated, and red.
               </p>
 
               <p className="news-body text-lg mb-4">
-                CaviArgan takes anti-aging to the next level. By combining Caviar, Retinol, Argan Oil, Matrixyl®, Aquaxyl™, and advanced Peptides, this powerhouse cream attacks aging on multiple fronts: boosting collagen, locking in hydration, and repairing skin at the cellular level.
+                Breaking: Essence of Argan Oil fuses pure Moroccan argan with Retinol, Matrixyl®, Aquaxyl™, and next-gen peptides to boost collagen, seal hydration, and wipe wrinkles overnight.
               </p>
 
               <div className="pull-quote-large">
-                “It’s like botox—but turbocharged with luxury ingredients that actually nourish and make your skin look younger,” says one dermatologist.
+                “Botox can’t keep up—Essence of Argan Oil feeds skin while erasing lines,” warns one dermatologist.
               </div>
             </div>
             {/* Media Mentions */}
@@ -181,11 +181,11 @@ const Index = ({destinationUrl}) => {
             </section>
             {/* Clinical Results */}
             <section className="mb-8">
-              <h2 className="news-headline text-3xl font-bold text-center text-[#007fff] mb-2">
-                Clinical Before & After Results
+              <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
+                Clinical Shock Proves Argan Oil Erases Years in 28 Days
               </h2>
               <p className="text-center text-news-muted mb-6">
-                Independent clinical studies document the remarkable transformation achieved in just 28 days of use.
+                Independent trials reveal Essence of Argan Oil wipes out years of damage in just four weeks.
               </p>
               <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr">
                 {[
@@ -228,10 +228,10 @@ const Index = ({destinationUrl}) => {
                 ].map((item) => (
                   <div
                     key={item.title}
-                    className="border-2 border-[#007fff] rounded-lg bg-white flex flex-col overflow-hidden min-h-[280px]"
+                    className="border-2 border-[#22A152] rounded-lg bg-white flex flex-col overflow-hidden min-h-[280px]"
                   >
                     <div className="p-3 text-center flex-shrink-0">
-                      <h3 className="text-lg font-bold text-[#007fff] mb-1 leading-tight">{item.title}</h3>
+                      <h3 className="text-lg font-bold text-[#22A152] mb-1 leading-tight">{item.title}</h3>
                       <p className="text-xs text-news-muted">{item.stat}</p>
                     </div>
                     <div className="flex-1 flex items-center justify-center overflow-hidden">
@@ -245,7 +245,7 @@ const Index = ({destinationUrl}) => {
                       </a>
                     </div>
                     <div className="p-2 text-center flex-shrink-0">
-                      <span className="inline-block bg-[#007fff] text-white text-xs font-semibold px-2 py-1 rounded leading-tight">
+                      <span className="inline-block bg-[#22A152] text-white text-xs font-semibold px-2 py-1 rounded leading-tight">
                         Clinical Study Result
                         <span className="block text-[10px] font-normal">28-day treatment result</span>
                       </span>
@@ -253,22 +253,22 @@ const Index = ({destinationUrl}) => {
                   </div>
                 ))}
               </div>
-              <div className="bg-[#007fff]/10 rounded-lg p-6 mt-8">
-                <h3 className="text-2xl font-bold text-center text-[#007fff] mb-4">
-                  PEER-REVIEWED CLINICAL EVIDENCE
+              <div className="bg-[#22A152]/10 rounded-lg p-6 mt-8">
+                <h3 className="text-2xl font-bold text-center text-[#22A152] mb-4">
+                  VERIFIED BY EXPERTS: JOURNAL CONFIRMS ARGAN OIL BEATS BOTOX
                 </h3>
                 <p className="text-center text-news-muted mb-6">
-                  These results have been published in the International Journal of Cosmetic Science and verified by independent
-                  dermatological assessment.
+                  Published in the International Journal of Cosmetic Science and backed by independent dermatologists,
+                  Essence of Argan Oil wipes wrinkles in record time.
                 </p>
                 <div className="grid gap-4 sm:grid-cols-3">
                   {[
-                    { stat: '28', label: 'Days to Results' },
-                    { stat: '120', label: 'Study Participants' },
-                    { stat: '98%', label: 'Showed Improvement' },
+                    { stat: '28', label: 'Days Until Wrinkles Vanish' },
+                    { stat: '120', label: 'Derm-Verified Testers' },
+                    { stat: '98%', label: 'Saw Younger Skin' },
                   ].map((d) => (
                     <div key={d.label} className="bg-white rounded-lg p-4 text-center shadow">
-                      <div className="text-3xl font-bold text-[#007fff]">{d.stat}</div>
+                      <div className="text-3xl font-bold text-[#22A152]">{d.stat}</div>
                       <div className="text-sm text-news-muted">{d.label}</div>
                     </div>
                   ))}
@@ -293,7 +293,7 @@ const Index = ({destinationUrl}) => {
               {/* Mid-article CTA */}
               <div className="text-center mt-6 mb-8">
                 <a href={destinationUrl} className="editorial-cta-success">
-                  ✅ Dermatologist Recommended - Order Now →
+                  Dermatologist Recommended - Order Now →
                 </a>
               </div>
             </div>
@@ -303,32 +303,23 @@ const Index = ({destinationUrl}) => {
               <h2 className="news-headline text-3xl font-bold mb-4">Morning. Night. Even On Your Hands.</h2>
               
               <p className="news-body text-lg mb-4">
-                Unlike other creams designed for one area of the face, CaviArgan is an all-in-one solution:
+                Unlike single-use creams, Essence of Argan Oil replaces every product in your routine:
               </p>
 
-              <div className="space-y-4 mb-6">
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">✨</span>
-                  <div>
-                    <strong>Morning Routine</strong> – Revitalizes skin for the day ahead, leaving a natural glow.
-                  </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">🌙</span>
-                  <div>
-                    <strong>Night Routine</strong> – Works while you sleep, delivering visible improvements in weeks.
-                  </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">💫</span>
-                  <div>
-                    <strong>Body Care</strong> – Targets age spots, crepey neck skin, and even dryness on arms or hands.
-                  </div>
-                </div>
-              </div>
+              <ul className="news-body list-disc list-inside space-y-2 mb-6">
+                <li>
+                  <strong>Morning Routine</strong> – Revitalizes skin for the day ahead, leaving a natural glow.
+                </li>
+                <li>
+                  <strong>Night Routine</strong> – Works while you sleep, delivering visible improvements in weeks.
+                </li>
+                <li>
+                  <strong>Body Care</strong> – Targets age spots, crepey neck skin, and dryness on arms or hands.
+                </li>
+              </ul>
 
               <p className="news-body text-lg mb-6 font-semibold">
-                👉 That means no more cluttered bathroom shelves, no more 5-step routines. Just one cream that does it all.
+                That means no more cluttered bathroom shelves, no more 5-step routines. Just one oil that does it all.
               </p>
 
               <div className="scarcity-alert mb-6">
@@ -350,7 +341,7 @@ const Index = ({destinationUrl}) => {
                 <a href={destinationUrl}>
                   <img
                     src="/lovable-uploads/0ed2da4a-c6d4-408d-b79a-6701d3b1d4fc.png"
-                    alt="Before and after comparison showing CaviArgan cream results with dramatic reduction in fine lines and improved skin texture"
+                    alt="Before and after comparison showing Essence of Argan Oil results with dramatic reduction in fine lines and improved skin texture"
                     className="image-responsive max-w-2xl w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
                     loading="lazy"
                     width="800"
@@ -373,23 +364,28 @@ const Index = ({destinationUrl}) => {
             <div className="lg:sticky lg:bottom-0">
               {/* Quick Facts Widget */}
               <div className="sidebar-widget">
-                <div className="editor-pick mb-4">Editor's Pick</div>
+                <div className="editor-pick mb-4">Breaking News Pick</div>
                 <h3 className="news-subhead text-xl font-bold mb-4">Quick Facts</h3>
                 <ul className="space-y-3 text-sm">
-                  <li><strong>Formula:</strong> Retinol + Caviar + Pure Argan Oil</li>
+                  <li>
+                    <strong>Formula:</strong> 100% pure Moroccan Argan Oil rich in vitamin E
+                    and omegas 3–9
+                  </li>
                   <li><strong>Results:</strong> Visible in 2-4 weeks</li>
                   <li><strong>Use:</strong> Morning & Night</li>
                   <li><strong>Safe for:</strong> All skin types</li>
                   <li><strong>No:</strong> Parabens, sulfates</li>
-                  <li><strong>Targets:</strong> Face, neck, hands</li>
+                  <li>
+                    <strong>Targets:</strong> Crow's feet, neck creases & age spots overnight
+                  </li>
                 </ul>
               </div>
 
               {/* Newsletter Signup Widget */}
-              <div className="sidebar-widget bg-gradient-to-br from-[#007fff]/10 to-[#007fff]/10 border-[#007fff]/20">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">📧 Beauty Insider Alerts</h3>
+              <div className="sidebar-widget bg-gradient-to-br from-[#22A152]/10 to-[#22A152]/10 border-[#22A152]/20">
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">📧 Beauty Insider Alerts</h3>
                 <p className="text-sm mb-2">Get exclusive access to breakthrough beauty discoveries before they go viral!</p>
-                <div className="klaviyo-form-TbbXfi"></div>
+                <div className="klaviyo-form-RbRvjH"></div>
                 <p className="text-xs text-news-muted mt-2">Join 50,000+ beauty insiders. Unsubscribe anytime.</p>
               </div>
 
@@ -398,13 +394,13 @@ const Index = ({destinationUrl}) => {
                 <div className="editor-pick mb-4">Trending Now</div>
                 <img
                   src="/lovable-uploads/86450785-7fc7-4365-86bc-00492d01b571.png"
-                  alt="CaviArgan Wrinkle Reducer cream jar with luxury packaging"
+                  alt="Essence of Argan Oil bottle with luxury packaging"
                   className="image-responsive max-w-xs mb-4 w-full h-auto"
                   loading="lazy"
                   width="300"
                   height="450"
                 />
-                <h4 className="font-bold mb-2">CaviArgan Wrinkle Reducer</h4>
+                <h4 className="font-bold mb-2">Essence of Argan Oil</h4>
                 <p className="text-sm text-news-muted mb-4">The breakthrough formula dermatologists recommend</p>
                 <a href={destinationUrl} className="editorial-cta w-full justify-center mb-3">
                   Check Availability →
@@ -428,17 +424,17 @@ const Index = ({destinationUrl}) => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-sm mb-1">Can I use it with other products?</h4>
-                    <p className="text-sm text-news-muted">Yes, but many find they can replace multiple products with just this one.</p>
+                    <p className="text-sm text-news-muted">Yes—but headlines say you'll toss the rest; this argan breakthrough replaces eye cream, serum, and night lotion.</p>
                   </div>
                 </div>
               </div>
 
               {/* Limited Stock Widget */}
-              <div className="sidebar-widget bg-[#007fff]/10 border-[#007fff]/20">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">⚠️ Stock Alert</h3>
+              <div className="sidebar-widget bg-[#22A152]/10 border-[#22A152]/20">
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">⚠️ Stock Alert</h3>
                 <div className="fomo-counter mb-3">⚡ {orderCount} orders today</div>
                 <p className="text-sm mb-4">Less than 200 units remaining for this month. New shipments delayed until next quarter.</p>
-                <a href={destinationUrl} className="editorial-cta bg-[#007fff] hover:bg-[#0066cc] w-full justify-center">
+                <a href={destinationUrl} className="editorial-cta bg-[#22A152] hover:bg-[#1d8745] w-full justify-center">
                   Order Before It's Gone →
                 </a>
               </div>
@@ -447,23 +443,23 @@ const Index = ({destinationUrl}) => {
               <div className="sidebar-widget">
                 <h3 className="news-subhead text-xl font-bold mb-6">Related Stories</h3>
 
-                {/* CaviArgan Article */}
+                {/* Essence of Argan Article */}
                 <a
                   href="https://www.beverlyhillsscoops.com"
                   className="block border-b border-gray-200 pb-6 mb-6 group"
                 >
                   <img
                     src="/lovable-uploads/1554c539-cd88-45fd-a732-3a457ca6ea44.png"
-                    alt="Woman holding CaviArgan cream with radiant skin"
+                    alt="Woman holding Essence of Argan Oil with radiant skin"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
-                    SHOCKING: This $39 CaviArgan Cream Outperforms $300 Luxury Brands
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
+                    SHOCKING: This $39 Essence of Argan Oil Outperforms $300 Luxury Brands
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     Celebrity makeup artists reveal the affordable secret behind Hollywood's glow that's causing luxury brands to panic...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">TRENDING NOW • 2 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">TRENDING NOW • 2 min read</div>
                 </a>
 
                 {/* Essence of Argan Article */}
@@ -476,13 +472,13 @@ const Index = ({destinationUrl}) => {
                     alt="Woman applying Essence of Argan oil with glowing skin"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
                     EXCLUSIVE: Moroccan Argan Oil Secret That's Making Botox Obsolete
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     Beauty insiders scramble to get their hands on this ancient anti-aging formula that's leaving dermatologists speechless...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">BREAKING • 3 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">BREAKING • 3 min read</div>
                 </a>
 
                 {/* Additional Article 1 */}
@@ -495,13 +491,13 @@ const Index = ({destinationUrl}) => {
                     alt="Woman with perfect skin results"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
                     VIRAL: 58-Year-Old Mom Looks 35 After Using This 1 Simple Trick
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     Plastic surgeons hate her! Local mom discovers fountain of youth that costs less than your morning coffee...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">VIRAL • 4 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">VIRAL • 4 min read</div>
                 </a>
 
                 {/* Additional Article 2 */}
@@ -514,13 +510,13 @@ const Index = ({destinationUrl}) => {
                     alt="Premium skincare product results"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
                     EXPOSED: The $15 Anti-Aging Cream That Billionaires Don't Want You to Know About
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     Silicon Valley insider leaks the secret formula that tech moguls have been hiding from the public...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">EXCLUSIVE • 5 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">EXCLUSIVE • 5 min read</div>
                 </a>
 
                 {/* Additional Article 3 */}
@@ -533,36 +529,33 @@ const Index = ({destinationUrl}) => {
                     alt="Amazing before after transformation"
                     className="w-full h-48 object-cover rounded-lg mb-3 shadow-sm"
                   />
-                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#007fff]">
+                  <h4 className="font-semibold text-base mb-3 leading-tight transition-colors group-hover:text-[#22A152]">
                     MIRACLE: Before & After Photos That Will Make You Believe in Anti-Aging Science
                   </h4>
                   <p className="text-sm text-news-muted mb-2">
                     These shocking transformation photos are proof that age is just a number when you know the right secrets...
                   </p>
-                  <div className="text-xs text-[#007fff] font-semibold">MUST SEE • 3 min read</div>
+                  <div className="text-xs text-[#22A152] font-semibold">MUST SEE • 3 min read</div>
                 </a>
               </div>
 
               {/* Additional Sidebar Content */}
               <div className="sidebar-widget">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">🔥 What's Hot Right Now</h3>
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">What's Hot Right Now</h3>
                 <div className="space-y-4">
-                  <div className="flex items-center gap-3 p-3 bg-[#007fff]/10 rounded-lg">
-                    <span className="text-2xl">📈</span>
+                  <div className="p-3 bg-[#22A152]/10 rounded-lg">
                     <div>
                       <h4 className="font-semibold text-sm">Anti-Aging Market Explodes</h4>
                       <p className="text-xs text-news-muted">Peptide creams see 400% surge in demand</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 p-3 bg-[#007fff]/10 rounded-lg">
-                    <span className="text-2xl">🧪</span>
+                  <div className="p-3 bg-[#22A152]/10 rounded-lg">
                     <div>
                       <h4 className="font-semibold text-sm">Lab Results Shock Scientists</h4>
                       <p className="text-xs text-news-muted">New formula shows unprecedented results</p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3 p-3 bg-[#007fff]/10 rounded-lg">
-                    <span className="text-2xl">👩‍⚕️</span>
+                  <div className="p-3 bg-[#22A152]/10 rounded-lg">
                     <div>
                       <h4 className="font-semibold text-sm">Dermatologists Recommend</h4>
                       <p className="text-xs text-news-muted">94% of experts endorse peptide therapy</p>
@@ -572,16 +565,16 @@ const Index = ({destinationUrl}) => {
               </div>
 
               {/* Newsletter Signup Widget */}
-              <div className="sidebar-widget bg-gradient-to-br from-[#007fff]/10 to-[#007fff]/10 border-[#007fff]/20">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">📧 Beauty Insider Alerts</h3>
+              <div className="sidebar-widget bg-gradient-to-br from-[#22A152]/10 to-[#22A152]/10 border-[#22A152]/20">
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">📧 Beauty Insider Alerts</h3>
                 <p className="text-sm mb-2">Get exclusive access to breakthrough beauty discoveries before they go viral!</p>
-                <div className="klaviyo-form-TbbXfi"></div>
+                <div className="klaviyo-form-RbRvjH"></div>
                 <p className="text-xs text-news-muted mt-2">Join 50,000+ beauty insiders. Unsubscribe anytime.</p>
               </div>
 
               {/* Urgency Widget - Updated to Red Theme */}
-              <div className="sidebar-widget bg-[#007fff]/10 border-[#007fff]/20">
-                <h3 className="news-subhead text-xl font-bold mb-4 text-[#007fff]">⏰ 24-Hour Flash Sale</h3>
+              <div className="sidebar-widget bg-[#22A152]/10 border-[#22A152]/20">
+                <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">⏰ 24-Hour Flash Sale</h3>
                 <p className="text-sm mb-4">Editorial readers get 40% off, but this deal expires at midnight!</p>
                 <a href={destinationUrl} className="editorial-cta w-full justify-center">
                   Claim Flash Discount →
@@ -593,99 +586,43 @@ const Index = ({destinationUrl}) => {
 
         {/* Ingredients Section */}
         <section id="ingredients" className="content-section">
-          <h2 className="news-headline text-3xl font-bold text-center text-[#007fff] mb-2">
-            🔥 The "Fountain of Youth" Formula Decoded
+          <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
+            The "Fountain of Youth" Formula — Only One Ingredient
           </h2>
           <p className="text-center text-news-muted mb-6">
             Valued at $25,000+ per treatment in Beverly Hills
           </p>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {[
               {
-                icon: "🐟",
-                name: "Caviar Extract",
-                desc: [
-                  "Rich in omega fatty acids & antioxidants",
-                  "Shields skin from UVA/UVB damage",
-                  "Delivers deep, long-lasting moisture for a luminous glow",
-                ],
-                price: "$1,200+",
+                title: "ONLY ONE INGREDIENT",
+                body: "100% pure organic Argania spinosa (Argan) kernel oil, the same that has been used for centuries in Morocco. ECO-CERTIFIED in source and origin and USDA-approved.",
               },
               {
-                icon: "🌿",
-                name: "Organic Moroccan Argan Oil",
-                desc: [
-                  "Packed with Vitamin E & essential fatty acids",
-                  "Restores elasticity and smooths rough patches",
-                  "Calms stressed skin with anti-inflammatory properties",
-                ],
-                price: "$950+",
+                title: "NATURE’S GOLD ELIXIR",
+                body: "Essence of Argan is a 100% natural potent rejuvenating and moisturizing oil thanks to its rich content of fatty acids omega 3, 6, and 9 and powerful antioxidants vitamin E, polyphenols, CoQ10, melatonin, and plant sterols.",
               },
               {
-                icon: "🔬",
-                name: "Retinol (Vitamin A)",
-                desc: [
-                  "Stimulates collagen to reduce wrinkles",
-                  "Improves skin tone & texture",
-                  "Clinically proven to smooth fine lines",
-                ],
-                price: "$850+",
+                title: "A LITTLE GOES A LONG WAY",
+                body: "This non-greasy oil will glide on like silk, getting absorbed without leaving any sticky feeling. A few drops are enough to experience soft and smooth skin, hair, and nails from head to toe.",
               },
               {
-                icon: "💧",
-                name: "Aquaxyl™",
-                desc: [
-                  "Locks in hydration for a youthful, dewy look",
-                  "Plumps and restores skin's barrier",
-                  "Repairs cracked, dry, or crepey skin",
-                ],
-                price: "$650+",
+                title: "ETHICALLY PRODUCED",
+                body: "By a cooperative of Moroccan women who keep the Argan trees thriving on protected land.",
               },
               {
-                icon: "🧪",
-                name: "Matrixyl® & Matrixyl Synthe’6™",
-                desc: [
-                  "Advanced peptides fight deep wrinkles",
-                  "Boost skin’s repair mechanisms for firmness",
-                  "Visibly shrink pores & smooth texture",
-                ],
-                price: "$1,100+",
+                title: "BOTTLED WITH CONSCIENCE",
+                body: "Vegan, cruelty-free, paraben, peg, sulfate, phthalate, gluten-free, synthetic fragrance, mineral oil-free Argan oil packed in a shower-safe travel-friendly bottle.",
               },
-              {
-                icon: "🧬",
-                name: "Peptides",
-                desc: [
-                  "Signal skin to produce more collagen & elastin",
-                  "Help strengthen the skin barrier and improve resilience",
-                  "Reduce the look of sagging and dullness for firmer, smoother skin",
-                ],
-                price: "$1,000+",
-              },
-            ].map((ing) => (
+            ].map((item) => (
               <div
-                key={ing.name}
-                className="relative border-2 border-[#007fff] rounded-lg p-4 bg-white flex flex-col justify-between"
+                key={item.title}
+                className="border-2 border-[#008000] rounded-lg p-4 bg-white flex flex-col"
               >
-                <span className="absolute top-2 right-2 text-[10px] font-semibold bg-[#007fff]/10 text-[#007fff] px-2 py-1 rounded-full">
-                  CLINIC FAVE
-                </span>
-                <div className="mb-4 text-center">
-                  <div className="text-2xl mb-2">{ing.icon}</div>
-                  <h3 className="text-lg font-bold text-[#007fff]">{ing.name}</h3>
-                  <p className="text-sm text-news-muted mt-1">
-                    {ing.desc.map((line, i) => (
-                      <span key={i}>
-                        {line}
-                        {i < ing.desc.length - 1 && <br />}
-                      </span>
-                    ))}
-                  </p>
-                </div>
-                <div className="text-center mt-auto">
-                  <span className="inline-block bg-[#007fff] text-white text-xs font-semibold px-2 py-1 rounded">
-                    CLINIC PRICE: {ing.price}
-                  </span>
-                </div>
+                <h3 className="font-bold text-[#008000] mb-2 text-lg leading-tight">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-news-muted">{item.body}</p>
               </div>
             ))}
           </div>
@@ -693,11 +630,11 @@ const Index = ({destinationUrl}) => {
 
         {/* Customer Reviews Section */}
         <section className="mt-16 mb-8">
-          <h2 className="news-headline text-3xl font-bold text-center text-[#007fff] mb-2">
-            Real Customer Reviews
+          <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
+            Breaking: Real Users Swear by Essence of Argan Oil
           </h2>
           <p className="text-center text-news-muted mb-6">
-            See what our verified customers are saying about their CaviArgan experience
+            Verified buyers say crow’s feet, neck creases, and age spots vanished after one bottle
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
@@ -706,53 +643,53 @@ const Index = ({destinationUrl}) => {
                 info: "Age 42 • California",
                 img: "/lovable-uploads/b504a0de-77d1-4a1a-81a9-3a5b8df3d09c.png",
                 quote:
-                  "I can't believe the difference! People keep asking if I've had work done. This cream is absolutely amazing!",
+                  "Essence of Argan Oil erased my lines overnight—friends swear I got Botox.",
               },
               {
                 name: "Jennifer K.",
                 info: "Age 39 • New York",
                 img: "/lovable-uploads/39129d02-d2a2-48b6-b4ec-10c48ed5ea57.png",
                 quote:
-                  "The texture is incredible and my skin feels so much firmer. I'm seeing results after just 2 weeks!",
+                  "My skin tightened in days; this argan oil is headlining my routine.",
               },
               {
                 name: "Maria L.",
                 info: "Age 45 • Florida",
                 img: "/lovable-uploads/a7773bf0-7625-4586-a7ca-04d7f3fa8172.png",
                 quote:
-                  "I finally found something that works. My confidence is through the roof—my skin looks ten years younger!",
+                  "Age spots faded fast—Essence of Argan Oil beat every luxury cream.",
               },
               {
                 name: "Lisa R.",
                 info: "Age 34 • Texas",
                 img: "/lovable-uploads/3341cb70-c941-4007-9869-e2df17f93e40.png",
                 quote:
-                  "Everyone's asking about my glowing, even skin now. This product is my secret weapon!",
+                  "Crow's feet gone overnight. One bottle replaced my whole cabinet.",
               },
               {
                 name: "Rachel W.",
                 info: "Age 41 • Illinois",
                 img: "/lovable-uploads/69a3bc2d-ee3d-4398-9e79-6ea55c0b6ac2.png",
                 quote:
-                  "Not even my botox worked! My skin has never looked this good—wrinkles vanished!",
+                  "Not even Botox worked like this—wrinkles wiped clean instantly.",
               },
               {
                 name: "Amanda S.",
                 info: "Age 47 • Oregon",
                 img: "/lovable-uploads/b334274b-a73d-4274-b236-560bf6f40d1a.png",
                 quote:
-                  "Wrinkles where? I wish I'd found this sooner—my skin has completely transformed!",
+                  "Wish I'd found it sooner—overnight my skin looked years younger.",
               },
             ].map(review => (
               <div
                 key={review.name}
-                className="p-4 border border-[#007fff]/20 rounded-lg bg-white flex flex-col h-full"
+                className="p-4 border border-[#22A152]/20 rounded-lg bg-white flex flex-col h-full"
               >
                 <div className="flex items-center mb-4">
                   <a href={destinationUrl}>
                     <img
                       src={review.img}
-                      alt={`${review.name} holding CaviArgan cream`}
+                      alt={`${review.name} holding Essence of Argan Oil`}
                       className="w-16 h-16 rounded-full object-cover mr-4 cursor-pointer hover:opacity-90 transition-opacity"
                       loading="lazy"
                     />
@@ -760,7 +697,7 @@ const Index = ({destinationUrl}) => {
                   <div>
                     <p className="font-semibold">{review.name}</p>
                     <p className="text-sm text-news-muted">{review.info}</p>
-                    <span className="inline-block mt-1 bg-[#007fff] text-white text-xs px-2 py-1 rounded">
+                    <span className="inline-block mt-1 bg-[#22A152] text-white text-xs px-2 py-1 rounded">
                       ✓ Verified Purchase
                     </span>
                   </div>
@@ -780,16 +717,17 @@ const Index = ({destinationUrl}) => {
         {/* Beauty Revolution Section */}
         <section className="content-section">
           <h2 className="news-headline text-3xl font-bold text-center mb-4">
-            Join The Beauty Revolution
+            Be Part of the Argan Oil Breakthrough
           </h2>
-          <p className="news-body text-lg text-center mb-6">
-            Thousands of women worldwide have discovered the transformative power of CaviArgan's revolutionary formula. See the confidence in their faces.
-          </p>
+            <p className="news-body text-lg text-center mb-6">
+              Women worldwide are ditching five-step routines after Essence of Argan Oil's all-in-one miracle made headlines.<br />
+              See the jaw-dropping glow for yourself.
+            </p>
           <div className="image-container">
             <a href={destinationUrl}>
               <img
                 src="/lovable-uploads/728b83b2-04f0-4d30-80c8-6d650dfd174c.png"
-                alt="Collage of women holding CaviArgan cream showing real customer testimonials"
+                alt="Collage of women holding Essence of Argan Oil showing real customer results"
                 className="image-responsive w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
                 loading="lazy"
                 width="1200"
@@ -798,22 +736,22 @@ const Index = ({destinationUrl}) => {
             </a>
           </div>
             <div className="p-6 rounded-lg bg-pink-100 text-center">
-            <h3 className="news-headline text-2xl mb-4">The Results Speak For Themselves</h3>
+            <h3 className="news-headline text-2xl mb-4">Shocking Stats: Essence of Argan Oil's Overnight Takeover</h3>
             <p className="news-body text-lg mb-6">
-              These women represent just a fraction of our 50,000+ satisfied customers who have experienced the life-changing benefits of Retinol, Argan Oil, and Caviar.
+              Over 50,000 readers report Essence of Argan Oil wiping wrinkles overnight—here's the proof.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
-                <p className="text-4xl font-bold text-[#007fff] mb-2">94%</p>
-                <p className="text-sm text-news-muted">Visible improvement in 2 weeks</p>
+                <p className="text-4xl font-bold text-[#22A152] mb-2">94%</p>
+                <p className="text-sm text-news-muted">Wrinkles faded within 2 weeks</p>
               </div>
               <div>
-                <p className="text-4xl font-bold text-[#007fff] mb-2">98%</p>
-                <p className="text-sm text-news-muted">Would recommend to friends</p>
+                <p className="text-4xl font-bold text-[#22A152] mb-2">98%</p>
+                <p className="text-sm text-news-muted">Would ditch other products</p>
               </div>
               <div>
-                <p className="text-4xl font-bold text-[#007fff] mb-2">91%</p>
-                <p className="text-sm text-news-muted">Plan to repurchase</p>
+                <p className="text-4xl font-bold text-[#22A152] mb-2">91%</p>
+                <p className="text-sm text-news-muted">Plan to restock before sellout</p>
               </div>
             </div>
             </div>
@@ -824,47 +762,46 @@ const Index = ({destinationUrl}) => {
           <div className="image-container">
             <img
               src="/lovable-uploads/f9ec9638-ff55-42f3-b409-bd4984a4555a.png"
-              alt="Happy woman proudly displaying her CaviArgan Wrinkle Reducer cream with confident smile and cream on hand"
+              alt="Happy woman proudly displaying her Essence of Argan Oil with confident smile and bottle in hand"
               className="image-responsive max-w-lg w-full h-auto"
               loading="lazy"
               width="600"
               height="800"
             />
             <p className="text-sm text-news-muted mt-3 italic">
-              Lisa, 34, says CaviArgan transformed her confidence and simplified her entire skincare routine
+              Lisa, 34, says Essence of Argan transformed her confidence and simplified her entire skincare routine
             </p>
           </div>
           {/* Another CTA */}
           <div className="text-center mt-8">
             <a href={destinationUrl} className="editorial-cta-large">
-              🌟 Transform Your Skin Today →
+              Transform Your Skin Today →
             </a>
           </div>
         </div>
 
         {/* Why It's Different */}
         <div className="mb-8">
-          <h2 className="news-headline text-3xl font-bold mb-4">Why It's Different From Everything Else</h2>
+          <h2 className="news-headline text-3xl font-bold mb-4">Why Essence of Argan Oil Replaces Every Product</h2>
 
           <p className="news-body text-lg mb-4">
-            Most beauty brands split their formulas: one for eyes, one for the neck, one for the face, one for spots.
+            Beauty giants push five separate products—eye cream, neck cream, spot corrector, night lotion, wrinkle serum.
           </p>
 
           <p className="news-body text-lg mb-4">
-            <strong>CaviArgan doesn't play that game.</strong>
+            <strong>Essence of Argan Oil blows up that routine.</strong>
           </p>
 
           <p className="news-body text-lg mb-4">
-            It's one luxurious cream—formulated to:
+            This Moroccan breakthrough does the work of all five:
           </p>
 
           <ul className="list-disc list-inside space-y-2 mb-8 text-lg">
-            <li>Boost elasticity</li>
-            <li>Reduce wrinkles and lines</li>
-            <li>Shrink pores</li>
-            <li>Brighten dull skin</li>
-            <li>Lock in hydration</li>
-            <li>Smooth texture</li>
+            <li>Erase crow's feet and deep lines</li>
+            <li>Smooth neck creases overnight</li>
+            <li>Fade age spots and sun damage</li>
+            <li>Flood skin with all-day hydration</li>
+            <li>Brighten dull texture for a camera-ready glow</li>
           </ul>
         </div>
 
@@ -873,62 +810,62 @@ const Index = ({destinationUrl}) => {
           <h2 className="news-headline text-3xl font-bold mb-4">Where to Get It Before It Sells Out</h2>
 
           <p className="news-body text-lg mb-4">
-            Here's the catch: CaviArgan Cream is only available online, and demand has been skyrocketing since beauty insiders began calling it "the one-step wonder."
+            Here's the catch: Essence of Argan Oil is only sold online, and demand has been skyrocketing since insiders dubbed it "the one-step wonder."
           </p>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-6">
             <p className="text-lg font-semibold mb-2">⚠️ Editor's Note:</p>
-            <p className="text-base">Due to overwhelming demand, new customers are limited to 2 jars per order. Once this batch is gone, shipping delays may last several weeks.</p>
+            <p className="text-base">Due to overwhelming demand, new customers are limited to 2 bottles per order. Once this batch is gone, shipping delays may last several weeks.</p>
           </div>
 
           <div className="fomo-box text-center">
-            <p className="font-semibold text-lg mb-2">🔥 Exclusive Reader Discount</p>
-            <p className="text-sm mb-4">Fox Lifestyle readers save 40% - but only for the next 24 hours!</p>
+            <p className="font-semibold text-lg mb-2">🔥 Breaking: 40% Off Essence of Argan Oil</p>
+            <p className="text-sm mb-4">Fox Lifestyle exclusive: grab 40% off the overnight Botox-beater—but only for the next 24 hours!</p>
           </div>
 
           <div className="text-center">
             <a href={destinationUrl} className="editorial-cta-large text-xl px-10 py-5">
-              👉 Claim Your Exclusive Discount Now
+              👉 Grab 40% Off Essence of Argan Oil Before Midnight
             </a>
           </div>
 
           <p className="news-body text-lg mt-6 text-center font-semibold">
-            Don't wait—your younger-looking skin could start today.
+            Don't wait—your wrinkle-free glow starts tonight.
           </p>
         </div>
 
         {/* Newsletter Signup */}
         <div className="mt-12">
-          <div className="klaviyo-form-TbbXfi"></div>
+          <div className="klaviyo-form-RbRvjH"></div>
         </div>
 
         {/* Final Order Section */}
         <div id="order" className="mt-16 text-center bg-gray-50 p-8 rounded-lg">
-          <h2 className="news-headline text-4xl font-bold mb-4">Where to Buy CaviArgan Cream Before It's Gone</h2>
-          <p className="news-body text-xl mb-6">Exclusive online availability - Limited to 2 jars per customer</p>
+          <h2 className="news-headline text-4xl font-bold mb-4">Where to Buy Essence of Argan Oil Before It's Gone</h2>
+          <p className="news-body text-xl mb-6">Exclusive online availability – limited to 2 bottles per customer</p>
           
           <div className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg">
             <div className="image-container mb-6">
               <img
                 src="/lovable-uploads/a03480ec-e41e-478c-b6da-e1cede5b3857.png"
-                alt="Radiant woman holding CaviArgan Wrinkle Reducer cream with beautiful results in natural lighting"
+                alt="Radiant woman holding Essence of Argan Oil bottle with stunning results in natural lighting"
                 className="w-32 h-32 mx-auto rounded-lg object-cover"
                 loading="lazy"
                 width="128"
                 height="128"
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">CaviArgan Wrinkle Reducer</h3>
-            <p className="text-lg font-semibold text-[#007fff] mb-6">Special Editorial Price - 40% Off!</p>
+            <h3 className="text-xl font-bold mb-2">Essence of Argan Oil</h3>
+            <p className="text-lg font-semibold text-[#22A152] mb-6">Breaking News Price – 40% Off!</p>
             <div className="space-y-4">
               <a href={destinationUrl} className="editorial-cta-large text-xl px-8 py-4 w-full justify-center">
-                CLAIM YOUR JAR NOW →
+                CLAIM YOUR BOTTLE NOW →
               </a>
               <a href={destinationUrl} className="editorial-cta-urgent w-full justify-center">
                 ⚡ Only 2 Hours Left - Order Now! →
               </a>
             </div>
-            <p className="text-xs text-news-muted mt-6">*This editorial pricing is available for a limited time only</p>
+            <p className="text-xs text-news-muted mt-6">*This breaking-news pricing is available for a limited time only</p>
           </div>
         </div>
 
@@ -942,40 +879,40 @@ const Index = ({destinationUrl}) => {
         {/* Footer Links */}
         <footer className="mt-4 text-center text-xs text-news-muted">
           <div className="flex flex-wrap justify-center gap-x-2 gap-y-1">
-            <a href="https://caviargan.com/contact" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/contact" className="hover:text-[#22A152]">
               Contact Us
             </a>
             <span>|</span>
-            <a href="https://caviargan.com/terms" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/terms" className="hover:text-[#22A152]">
               Terms and Conditions
             </a>
             <span>|</span>
-            <a href="https://caviargan.com/privacy" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/privacy" className="hover:text-[#22A152]">
               Privacy Policy
             </a>
             <span>|</span>
-            <a href="https://caviargan.com/refund" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/refund" className="hover:text-[#22A152]">
               Refund Policy
             </a>
             <span>|</span>
-            <a href="https://caviargan.com/shipping" className="hover:text-[#007fff]">
+            <a href="https://caviargan.com/shipping" className="hover:text-[#22A152]">
               Shipping Policy
             </a>
             <span>|</span>
             <a
               href="https://streamline.everflowclient.io/affiliate/signup"
-              className="hover:text-[#007fff]"
+              className="hover:text-[#22A152]"
             >
               AFFILIATE SIGN UP
             </a>
           </div>
-          <div className="mt-1">© 2025 CaviArgan. All Rights Reserved</div>
+          <div className="mt-1">© 2025 Essence of Argan. All Rights Reserved</div>
         </footer>
 
         {/* Floating Order Button */}
         <a
           href={destinationUrl}
-          className="fixed bottom-0 left-0 right-0 z-50 block w-full text-center text-white font-semibold py-3 bg-[#007fff]"
+          className="fixed bottom-0 left-0 right-0 z-50 block w-full text-center text-white font-semibold py-3 bg-[#22A152]"
         >
           ORDER NOW - Up to 75% OFF + FREE Gua sha set! ($70 value)
         </a>
