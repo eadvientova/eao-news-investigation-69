@@ -182,7 +182,7 @@ const Index = ({destinationUrl}) => {
             {/* Clinical Results */}
             <section className="mb-8">
               <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
-                Clinical Shock: Argan Oil Erases Years in 28 Days
+                Clinical Shock Proves Argan Oil Erases Years in 28 Days
               </h2>
               <p className="text-center text-news-muted mb-6">
                 Independent trials reveal Essence of Argan Oil wipes out years of damage in just four weeks.
