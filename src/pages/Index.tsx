@@ -381,7 +381,7 @@ const Index = ({destinationUrl}) => {
                   <li><strong>Use:</strong> Morning & Night</li>
                   <li><strong>Safe for:</strong> All skin types</li>
                   <li><strong>No:</strong> Parabens, sulfates</li>
-                  <li><strong>Targets:</strong> Face, neck, hands</li>
+                  <li><strong>Targets:</strong> Crow's feet, neck creases & age spots overnight</li>
                 </ul>
               </div>
 
