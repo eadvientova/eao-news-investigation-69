@@ -367,12 +367,17 @@ const Index = ({destinationUrl}) => {
                 <div className="editor-pick mb-4">Breaking News Pick</div>
                 <h3 className="news-subhead text-xl font-bold mb-4">Quick Facts</h3>
                 <ul className="space-y-3 text-sm">
-                  <li><strong>Formula:</strong> Retinol + Caviar + Pure Argan Oil</li>
+                  <li>
+                    <strong>Formula:</strong> 100% pure Moroccan Argan Oil rich in vitamin E
+                    and omegas 3–9
+                  </li>
                   <li><strong>Results:</strong> Visible in 2-4 weeks</li>
                   <li><strong>Use:</strong> Morning & Night</li>
                   <li><strong>Safe for:</strong> All skin types</li>
                   <li><strong>No:</strong> Parabens, sulfates</li>
-                  <li><strong>Targets:</strong> Crow's feet, neck creases & age spots overnight</li>
+                  <li>
+                    <strong>Targets:</strong> Crow's feet, neck creases & age spots overnight
+                  </li>
                 </ul>
               </div>
 
