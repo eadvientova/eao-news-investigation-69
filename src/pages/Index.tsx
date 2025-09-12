@@ -828,7 +828,7 @@ const Index = ({destinationUrl}) => {
           {/* Another CTA */}
           <div className="text-center mt-8">
             <a href={destinationUrl} className="editorial-cta-large">
-              🌟 Transform Your Skin Today →
+              Transform Your Skin Today →
             </a>
           </div>
         </div>
