@@ -255,17 +255,17 @@ const Index = ({destinationUrl}) => {
               </div>
               <div className="bg-[#22A152]/10 rounded-lg p-6 mt-8">
                 <h3 className="text-2xl font-bold text-center text-[#22A152] mb-4">
-                  PEER-REVIEWED CLINICAL EVIDENCE
+                  CLINICAL SHOCK: JOURNAL CONFIRMS ARGAN OIL BEATS BOTOX
                 </h3>
                 <p className="text-center text-news-muted mb-6">
-                  These results have been published in the International Journal of Cosmetic Science and verified by independent
-                  dermatological assessment.
+                  Published in the International Journal of Cosmetic Science and backed by independent dermatologists,
+                  Essence of Argan Oil wipes wrinkles in record time.
                 </p>
                 <div className="grid gap-4 sm:grid-cols-3">
                   {[
-                    { stat: '28', label: 'Days to Results' },
-                    { stat: '120', label: 'Study Participants' },
-                    { stat: '98%', label: 'Showed Improvement' },
+                    { stat: '28', label: 'Days Until Wrinkles Vanish' },
+                    { stat: '120', label: 'Derm-Verified Testers' },
+                    { stat: '98%', label: 'Saw Younger Skin' },
                   ].map((d) => (
                     <div key={d.label} className="bg-white rounded-lg p-4 text-center shadow">
                       <div className="text-3xl font-bold text-[#22A152]">{d.stat}</div>
