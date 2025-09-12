@@ -150,18 +150,18 @@ const Index = ({destinationUrl}) => {
 
             {/* Why Experts Section */}
             <div className="mb-8">
-              <h2 className="news-headline text-3xl font-bold mb-4">Why Experts Are Calling It the “Holy Grail of Anti-Aging”</h2>
+              <h2 className="news-headline text-3xl font-bold mb-4">Experts Panic: Essence of Argan Oil Named the “Holy Grail of Anti-Aging”</h2>
 
               <p className="news-body text-lg mb-4">
-                Retinol has always been praised as the gold standard for wrinkle reduction—but it often comes with peeling, irritation, and redness.
+                Retinol once ruled wrinkle relief, but dermatologists warn it often leaves skin peeling, irritated, and red.
               </p>
 
               <p className="news-body text-lg mb-4">
-                Essence of Argan Oil takes anti-aging to the next level. Packed with pure Moroccan argan, Retinol, Matrixyl®, Aquaxyl™, and advanced peptides, this powerhouse oil attacks aging on multiple fronts: boosting collagen, locking in hydration, and repairing skin at the cellular level.
+                Breaking: Essence of Argan Oil fuses pure Moroccan argan with Retinol, Matrixyl®, Aquaxyl™, and next-gen peptides to boost collagen, seal hydration, and wipe wrinkles overnight.
               </p>
 
               <div className="pull-quote-large">
-                “It’s like botox—but turbocharged with luxury ingredients that actually nourish and make your skin look younger,” says one dermatologist.
+                “Botox can’t keep up—Essence of Argan Oil feeds skin while erasing lines,” warns one dermatologist.
               </div>
             </div>
             {/* Media Mentions */}
