@@ -307,28 +307,28 @@
     }
   }
   /* Klaviyo form styling */
-  .klaviyo-form-TbbXfi form {
+  .klaviyo-form-RbRvjH form {
     @apply flex flex-col gap-1 m-0;
   }
 
-  .klaviyo-form-TbbXfi form > div {
+  .klaviyo-form-RbRvjH form > div {
     @apply m-0 p-0;
     min-height: 50px !important;
   }
 
-  .klaviyo-form-TbbXfi label {
+  .klaviyo-form-RbRvjH label {
     @apply hidden;
   }
 
-  .klaviyo-form-TbbXfi input[type="email"] {
+  .klaviyo-form-RbRvjH input[type="email"] {
     @apply m-0 w-full px-3 py-2 border border-gray-300 rounded;
   }
 
-  .klaviyo-form-TbbXfi button[type="submit"] {
+  .klaviyo-form-RbRvjH button[type="submit"] {
     @apply m-0 w-full px-6 py-2 text-sm font-semibold text-white rounded transition-colors;
     background-color: hsl(var(--breaking-green));
   }
-  .klaviyo-form-TbbXfi button[type="submit"]:hover {
+  .klaviyo-form-RbRvjH button[type="submit"]:hover {
     background-color: hsl(var(--editor-green));
   }
 }

@@ -16,24 +16,7 @@ const NewsletterWidget = ({ className = "" }: NewsletterWidgetProps) => {
         Get exclusive access to breakthrough beauty discoveries before they go viral!
       </p>
       
-      <div className="space-y-3">
-        <div className="klaviyo-form-TbbXfi"></div>
-
-        {/* Fallback form if Klaviyo doesn't load */}
-        <form className="flex gap-2">
-          <input
-            type="email"
-            placeholder="Email"
-            className="flex-1 px-3 py-2 border border-[#22A152]/30 rounded focus:outline-none focus:ring-2 focus:ring-[#22A152]/50 focus:border-[#22A152] text-sm"
-          />
-          <button
-            type="submit"
-            className="bg-[#22A152] hover:bg-[#1d8745] text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm whitespace-nowrap"
-          >
-            Subscribe
-          </button>
-        </form>
-      </div>
+      <div className="klaviyo-form-RbRvjH"></div>
       
       <p className="text-xs text-news-muted mt-3 text-center">
         Join 50,000+ beauty insiders. Unsubscribe anytime.

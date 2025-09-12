@@ -380,7 +380,7 @@ const Index = ({destinationUrl}) => {
               <div className="sidebar-widget bg-gradient-to-br from-[#22A152]/10 to-[#22A152]/10 border-[#22A152]/20">
                 <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">📧 Beauty Insider Alerts</h3>
                 <p className="text-sm mb-2">Get exclusive access to breakthrough beauty discoveries before they go viral!</p>
-                <div className="klaviyo-form-TbbXfi"></div>
+                <div className="klaviyo-form-RbRvjH"></div>
                 <p className="text-xs text-news-muted mt-2">Join 50,000+ beauty insiders. Unsubscribe anytime.</p>
               </div>
 
@@ -563,7 +563,7 @@ const Index = ({destinationUrl}) => {
               <div className="sidebar-widget bg-gradient-to-br from-[#22A152]/10 to-[#22A152]/10 border-[#22A152]/20">
                 <h3 className="news-subhead text-xl font-bold mb-4 text-[#22A152]">📧 Beauty Insider Alerts</h3>
                 <p className="text-sm mb-2">Get exclusive access to breakthrough beauty discoveries before they go viral!</p>
-                <div className="klaviyo-form-TbbXfi"></div>
+                <div className="klaviyo-form-RbRvjH"></div>
                 <p className="text-xs text-news-muted mt-2">Join 50,000+ beauty insiders. Unsubscribe anytime.</p>
               </div>
 
@@ -831,7 +831,7 @@ const Index = ({destinationUrl}) => {
 
         {/* Newsletter Signup */}
         <div className="mt-12">
-          <div className="klaviyo-form-TbbXfi"></div>
+          <div className="klaviyo-form-RbRvjH"></div>
         </div>
 
         {/* Final Order Section */}
