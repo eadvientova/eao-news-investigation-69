@@ -585,7 +585,7 @@ const Index = ({destinationUrl}) => {
         {/* Ingredients Section */}
         <section id="ingredients" className="content-section">
           <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
-            🔥 The "Fountain of Youth" Formula Decoded
+            The "Fountain of Youth" Formula Decoded
           </h2>
           <p className="text-center text-news-muted mb-6">
             Valued at $25,000+ per treatment in Beverly Hills
@@ -593,7 +593,6 @@ const Index = ({destinationUrl}) => {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                icon: "🐟",
                 name: "Caviar Extract",
                 desc: [
                   "Rich in omega fatty acids & antioxidants",
@@ -603,7 +602,6 @@ const Index = ({destinationUrl}) => {
                 price: "$1,200+",
               },
               {
-                icon: "🌿",
                 name: "Organic Moroccan Argan Oil",
                 desc: [
                   "Packed with Vitamin E & essential fatty acids",
@@ -613,7 +611,6 @@ const Index = ({destinationUrl}) => {
                 price: "$950+",
               },
               {
-                icon: "🔬",
                 name: "Retinol (Vitamin A)",
                 desc: [
                   "Stimulates collagen to reduce wrinkles",
@@ -623,7 +620,6 @@ const Index = ({destinationUrl}) => {
                 price: "$850+",
               },
               {
-                icon: "💧",
                 name: "Aquaxyl™",
                 desc: [
                   "Locks in hydration for a youthful, dewy look",
@@ -633,7 +629,6 @@ const Index = ({destinationUrl}) => {
                 price: "$650+",
               },
               {
-                icon: "🧪",
                 name: "Matrixyl® & Matrixyl Synthe’6™",
                 desc: [
                   "Advanced peptides fight deep wrinkles",
@@ -643,7 +638,6 @@ const Index = ({destinationUrl}) => {
                 price: "$1,100+",
               },
               {
-                icon: "",
                 name: "Peptides",
                 desc: [
                   "Breaking-news peptides amplify Essence of Argan Oil's collagen surge",
@@ -661,7 +655,6 @@ const Index = ({destinationUrl}) => {
                   CLINIC FAVE
                 </span>
                 <div className="mb-4 text-center">
-                  <div className="text-2xl mb-2">{ing.icon}</div>
                   <h3 className="text-lg font-bold text-[#22A152]">{ing.name}</h3>
                   <p className="text-sm text-news-muted mt-1">
                     {ing.desc.map((line, i) => (
