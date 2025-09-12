@@ -643,12 +643,12 @@ const Index = ({destinationUrl}) => {
                 price: "$1,100+",
               },
               {
-                icon: "🧬",
+                icon: "",
                 name: "Peptides",
                 desc: [
-                  "Signal skin to produce more collagen & elastin",
-                  "Help strengthen the skin barrier and improve resilience",
-                  "Reduce the look of sagging and dullness for firmer, smoother skin",
+                  "Breaking-news peptides amplify Essence of Argan Oil's collagen surge",
+                  "Fortify skin's barrier so firmness makes headlines",
+                  "Erase sagging and dullness overnight for a newsroom-ready glow",
                 ],
                 price: "$1,000+",
               },
