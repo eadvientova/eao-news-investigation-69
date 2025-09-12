@@ -894,31 +894,31 @@ const Index = ({destinationUrl}) => {
 
         {/* Final Order Section */}
         <div id="order" className="mt-16 text-center bg-gray-50 p-8 rounded-lg">
-          <h2 className="news-headline text-4xl font-bold mb-4">Where to Buy CaviArgan Cream Before It's Gone</h2>
-          <p className="news-body text-xl mb-6">Exclusive online availability - Limited to 2 jars per customer</p>
+          <h2 className="news-headline text-4xl font-bold mb-4">Where to Buy Essence of Argan Oil Before It's Gone</h2>
+          <p className="news-body text-xl mb-6">Exclusive online availability – limited to 2 bottles per customer</p>
           
           <div className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg">
             <div className="image-container mb-6">
               <img
                 src="/lovable-uploads/a03480ec-e41e-478c-b6da-e1cede5b3857.png"
-                alt="Radiant woman holding CaviArgan Wrinkle Reducer cream with beautiful results in natural lighting"
+                alt="Radiant woman holding Essence of Argan Oil bottle with stunning results in natural lighting"
                 className="w-32 h-32 mx-auto rounded-lg object-cover"
                 loading="lazy"
                 width="128"
                 height="128"
               />
             </div>
-            <h3 className="text-xl font-bold mb-2">CaviArgan Wrinkle Reducer</h3>
-            <p className="text-lg font-semibold text-[#22A152] mb-6">Special Editorial Price - 40% Off!</p>
+            <h3 className="text-xl font-bold mb-2">Essence of Argan Oil</h3>
+            <p className="text-lg font-semibold text-[#22A152] mb-6">Breaking News Price – 40% Off!</p>
             <div className="space-y-4">
               <a href={destinationUrl} className="editorial-cta-large text-xl px-8 py-4 w-full justify-center">
-                CLAIM YOUR JAR NOW →
+                CLAIM YOUR BOTTLE NOW →
               </a>
               <a href={destinationUrl} className="editorial-cta-urgent w-full justify-center">
                 ⚡ Only 2 Hours Left - Order Now! →
               </a>
             </div>
-            <p className="text-xs text-news-muted mt-6">*This editorial pricing is available for a limited time only</p>
+            <p className="text-xs text-news-muted mt-6">*This breaking-news pricing is available for a limited time only</p>
           </div>
         </div>
 
