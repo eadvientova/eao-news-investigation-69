@@ -593,7 +593,7 @@ const Index = ({destinationUrl}) => {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                name: "Caviar Extract",
+                name: ["Caviar Extract"],
                 desc: [
                   "Rich in omega fatty acids & antioxidants",
                   "Shields skin from UVA/UVB damage",
@@ -602,7 +602,7 @@ const Index = ({destinationUrl}) => {
                 price: "$1,200+",
               },
               {
-                name: "Organic Moroccan Argan Oil",
+                name: ["Organic Moroccan", "Argan Oil"],
                 desc: [
                   "Packed with Vitamin E & essential fatty acids",
                   "Restores elasticity and smooths rough patches",
@@ -611,7 +611,7 @@ const Index = ({destinationUrl}) => {
                 price: "$950+",
               },
               {
-                name: "Retinol (Vitamin A)",
+                name: ["Retinol (Vitamin A)"],
                 desc: [
                   "Stimulates collagen to reduce wrinkles",
                   "Improves skin tone & texture",
@@ -620,7 +620,7 @@ const Index = ({destinationUrl}) => {
                 price: "$850+",
               },
               {
-                name: "Aquaxyl™",
+                name: ["Aquaxyl™"],
                 desc: [
                   "Locks in hydration for a youthful, dewy look",
                   "Plumps and restores skin's barrier",
@@ -629,7 +629,7 @@ const Index = ({destinationUrl}) => {
                 price: "$650+",
               },
               {
-                name: "Matrixyl® & Matrixyl Synthe’6™",
+                name: ["Matrixyl® &", "Matrixyl Synthe’6™"],
                 desc: [
                   "Advanced peptides fight deep wrinkles",
                   "Boost skin’s repair mechanisms for firmness",
@@ -638,7 +638,7 @@ const Index = ({destinationUrl}) => {
                 price: "$1,100+",
               },
               {
-                name: "Peptides",
+                name: ["Peptides"],
                 desc: [
                   "Breaking-news peptides amplify Essence of Argan Oil's collagen surge",
                   "Fortify skin's barrier so firmness makes headlines",
@@ -648,14 +648,20 @@ const Index = ({destinationUrl}) => {
               },
             ].map((ing) => (
               <div
-                key={ing.name}
+                key={ing.name.join(" ")}
                 className="relative border-2 border-[#22A152] rounded-lg p-4 bg-white flex flex-col justify-between"
               >
                 <span className="absolute top-2 right-2 text-[10px] font-semibold bg-[#22A152]/10 text-[#22A152] px-2 py-1 rounded-full">
                   CLINIC FAVE
                 </span>
                 <div className="mb-4 text-center">
-                  <h3 className="text-lg font-bold text-[#22A152]">{ing.name}</h3>
+                  <h3 className="text-lg font-bold text-[#22A152] leading-tight">
+                    {ing.name.map((line, i) => (
+                      <span key={i} className="block">
+                        {line}
+                      </span>
+                    ))}
+                  </h3>
                   <p className="text-sm text-news-muted mt-1">
                     {ing.desc.map((line, i) => (
                       <span key={i}>
