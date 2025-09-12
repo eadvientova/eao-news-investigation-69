@@ -770,16 +770,16 @@ const Index = ({destinationUrl}) => {
         {/* Beauty Revolution Section */}
         <section className="content-section">
           <h2 className="news-headline text-3xl font-bold text-center mb-4">
-            Join The Beauty Revolution
+            Join the Argan Oil Revolution
           </h2>
           <p className="news-body text-lg text-center mb-6">
-            Thousands of women worldwide have discovered the transformative power of CaviArgan's revolutionary formula. See the confidence in their faces.
+            Women worldwide are ditching five-step routines after Essence of Argan Oil's all-in-one miracle made headlines. See the jaw-dropping glow for yourself.
           </p>
           <div className="image-container">
             <a href={destinationUrl}>
               <img
                 src="/lovable-uploads/728b83b2-04f0-4d30-80c8-6d650dfd174c.png"
-                alt="Collage of women holding CaviArgan cream showing real customer testimonials"
+                alt="Collage of women holding Essence of Argan Oil showing real customer results"
                 className="image-responsive w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
                 loading="lazy"
                 width="1200"
