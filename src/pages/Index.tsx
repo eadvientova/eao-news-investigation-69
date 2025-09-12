@@ -789,22 +789,22 @@ const Index = ({destinationUrl}) => {
             </a>
           </div>
             <div className="p-6 rounded-lg bg-pink-100 text-center">
-            <h3 className="news-headline text-2xl mb-4">The Results Speak For Themselves</h3>
+            <h3 className="news-headline text-2xl mb-4">Shocking Stats: Essence of Argan Oil's Overnight Takeover</h3>
             <p className="news-body text-lg mb-6">
-              These women represent just a fraction of our 50,000+ satisfied customers who have experienced the life-changing benefits of Retinol, Argan Oil, and Caviar.
+              Over 50,000 readers report Essence of Argan Oil wiping wrinkles overnight—here's the proof.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
                 <p className="text-4xl font-bold text-[#22A152] mb-2">94%</p>
-                <p className="text-sm text-news-muted">Visible improvement in 2 weeks</p>
+                <p className="text-sm text-news-muted">Wrinkles faded within 2 weeks</p>
               </div>
               <div>
                 <p className="text-4xl font-bold text-[#22A152] mb-2">98%</p>
-                <p className="text-sm text-news-muted">Would recommend to friends</p>
+                <p className="text-sm text-news-muted">Would ditch other products</p>
               </div>
               <div>
                 <p className="text-4xl font-bold text-[#22A152] mb-2">91%</p>
-                <p className="text-sm text-news-muted">Plan to repurchase</p>
+                <p className="text-sm text-news-muted">Plan to restock before sellout</p>
               </div>
             </div>
             </div>
