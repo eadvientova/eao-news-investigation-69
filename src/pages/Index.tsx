@@ -696,42 +696,42 @@ const Index = ({destinationUrl}) => {
                 info: "Age 42 • California",
                 img: "/lovable-uploads/b504a0de-77d1-4a1a-81a9-3a5b8df3d09c.png",
                 quote:
-                  "I can't believe the difference! People keep asking if I've had work done. This cream is absolutely amazing!",
+                  "Essence of Argan Oil erased my lines overnight—friends swear I got Botox.",
               },
               {
                 name: "Jennifer K.",
                 info: "Age 39 • New York",
                 img: "/lovable-uploads/39129d02-d2a2-48b6-b4ec-10c48ed5ea57.png",
                 quote:
-                  "The texture is incredible and my skin feels so much firmer. I'm seeing results after just 2 weeks!",
+                  "My skin tightened in days; this argan oil is headlining my routine.",
               },
               {
                 name: "Maria L.",
                 info: "Age 45 • Florida",
                 img: "/lovable-uploads/a7773bf0-7625-4586-a7ca-04d7f3fa8172.png",
                 quote:
-                  "I finally found something that works. My confidence is through the roof—my skin looks ten years younger!",
+                  "Age spots faded fast—Essence of Argan Oil beat every luxury cream.",
               },
               {
                 name: "Lisa R.",
                 info: "Age 34 • Texas",
                 img: "/lovable-uploads/3341cb70-c941-4007-9869-e2df17f93e40.png",
                 quote:
-                  "Everyone's asking about my glowing, even skin now. This product is my secret weapon!",
+                  "Crow's feet gone overnight. One bottle replaced my whole cabinet.",
               },
               {
                 name: "Rachel W.",
                 info: "Age 41 • Illinois",
                 img: "/lovable-uploads/69a3bc2d-ee3d-4398-9e79-6ea55c0b6ac2.png",
                 quote:
-                  "Not even my botox worked! My skin has never looked this good—wrinkles vanished!",
+                  "Not even Botox worked like this—wrinkles wiped clean instantly.",
               },
               {
                 name: "Amanda S.",
                 info: "Age 47 • Oregon",
                 img: "/lovable-uploads/b334274b-a73d-4274-b236-560bf6f40d1a.png",
                 quote:
-                  "Wrinkles where? I wish I'd found this sooner—my skin has completely transformed!",
+                  "Wish I'd found it sooner—overnight my skin looked years younger.",
               },
             ].map(review => (
               <div
