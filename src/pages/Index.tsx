@@ -303,32 +303,23 @@ const Index = ({destinationUrl}) => {
               <h2 className="news-headline text-3xl font-bold mb-4">Morning. Night. Even On Your Hands.</h2>
               
               <p className="news-body text-lg mb-4">
-                Unlike other creams designed for one area of the face, CaviArgan is an all-in-one solution:
+                Unlike single-use creams, Essence of Argan Oil replaces every product in your routine:
               </p>
 
-              <div className="space-y-4 mb-6">
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">✨</span>
-                  <div>
-                    <strong>Morning Routine</strong> – Revitalizes skin for the day ahead, leaving a natural glow.
-                  </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">🌙</span>
-                  <div>
-                    <strong>Night Routine</strong> – Works while you sleep, delivering visible improvements in weeks.
-                  </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">💫</span>
-                  <div>
-                    <strong>Body Care</strong> – Targets age spots, crepey neck skin, and even dryness on arms or hands.
-                  </div>
-                </div>
-              </div>
+              <ul className="news-body list-disc list-inside space-y-2 mb-6">
+                <li>
+                  <strong>Morning Routine</strong> – Revitalizes skin for the day ahead, leaving a natural glow.
+                </li>
+                <li>
+                  <strong>Night Routine</strong> – Works while you sleep, delivering visible improvements in weeks.
+                </li>
+                <li>
+                  <strong>Body Care</strong> – Targets age spots, crepey neck skin, and dryness on arms or hands.
+                </li>
+              </ul>
 
               <p className="news-body text-lg mb-6 font-semibold">
-                👉 That means no more cluttered bathroom shelves, no more 5-step routines. Just one cream that does it all.
+                That means no more cluttered bathroom shelves, no more 5-step routines. Just one oil that does it all.
               </p>
 
               <div className="scarcity-alert mb-6">
