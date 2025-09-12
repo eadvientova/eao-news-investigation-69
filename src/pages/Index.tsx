@@ -582,99 +582,21 @@ const Index = ({destinationUrl}) => {
         {/* Ingredients Section */}
         <section id="ingredients" className="content-section">
           <h2 className="news-headline text-3xl font-bold text-center text-[#22A152] mb-2">
-            The "Fountain of Youth" Formula Decoded
+            The "Fountain of Youth" Formula — Only One Ingredient
           </h2>
           <p className="text-center text-news-muted mb-6">
             Valued at $25,000+ per treatment in Beverly Hills
           </p>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              {
-                name: ["Caviar Extract"],
-                desc: [
-                  "Rich in omega fatty acids & antioxidants",
-                  "Shields skin from UVA/UVB damage",
-                  "Delivers deep, long-lasting moisture for a luminous glow",
-                ],
-                price: "$1,200+",
-              },
-              {
-                name: ["Organic Moroccan", "Argan Oil"],
-                desc: [
-                  "Packed with Vitamin E & essential fatty acids",
-                  "Restores elasticity and smooths rough patches",
-                  "Calms stressed skin with anti-inflammatory properties",
-                ],
-                price: "$950+",
-              },
-              {
-                name: ["Retinol (Vitamin A)"],
-                desc: [
-                  "Stimulates collagen to reduce wrinkles",
-                  "Improves skin tone & texture",
-                  "Clinically proven to smooth fine lines",
-                ],
-                price: "$850+",
-              },
-              {
-                name: ["Aquaxyl™"],
-                desc: [
-                  "Locks in hydration for a youthful, dewy look",
-                  "Plumps and restores skin's barrier",
-                  "Repairs cracked, dry, or crepey skin",
-                ],
-                price: "$650+",
-              },
-              {
-                name: ["Matrixyl® &", "Matrixyl Synthe’6™"],
-                desc: [
-                  "Advanced peptides fight deep wrinkles",
-                  "Boost skin’s repair mechanisms for firmness",
-                  "Visibly shrink pores & smooth texture",
-                ],
-                price: "$1,100+",
-              },
-              {
-                name: ["Peptides"],
-                desc: [
-                  "Breaking-news peptides amplify Essence of Argan Oil's collagen surge",
-                  "Fortify skin's barrier so firmness makes headlines",
-                  "Erase sagging and dullness overnight for a newsroom-ready glow",
-                ],
-                price: "$1,000+",
-              },
-            ].map((ing) => (
-              <div
-                key={ing.name.join(" ")}
-                className="relative border-2 border-[#22A152] rounded-lg px-4 pt-8 pb-4 bg-white flex flex-col justify-between"
-              >
-                <span className="absolute top-2 left-2 text-[10px] font-semibold bg-[#22A152]/10 text-[#22A152] px-2 py-1 rounded-full">
-                  CLINIC FAVE
-                </span>
-                <div className="mb-4 text-center">
-                  <h3 className="text-lg font-bold text-[#22A152] leading-tight">
-                    {ing.name.map((line, i) => (
-                      <span key={i} className="block">
-                        {line}
-                      </span>
-                    ))}
-                  </h3>
-                  <p className="text-sm text-news-muted mt-1">
-                    {ing.desc.map((line, i) => (
-                      <span key={i}>
-                        {line}
-                        {i < ing.desc.length - 1 && <br />}
-                      </span>
-                    ))}
-                  </p>
-                </div>
-                <div className="text-center mt-auto">
-                  <span className="inline-block bg-[#22A152] text-white text-xs font-semibold px-2 py-1 rounded">
-                    CLINIC PRICE: {ing.price}
-                  </span>
-                </div>
-              </div>
-            ))}
+          <div className="max-w-2xl mx-auto text-center">
+            <p className="text-news-muted mb-4">
+              ONLY ONE INGREDIENT: 100% pure organic Argania spinosa (Argan) kernel oil, the same that has been used for centuries in Morocco. ECO-CERTIFIED in source and origin and USDA-approved.
+            </p>
+            <ul className="text-left list-disc list-inside space-y-2">
+              <li>Cold-pressed and unrefined to preserve vitamin E, antioxidants, and essential fatty acids.</li>
+              <li>Sustainably harvested by Moroccan women’s cooperatives; eco-certified and USDA-approved.</li>
+              <li>Absorbs quickly to hydrate, soften, and restore a youthful glow.</li>
+              <li>Targets wrinkles, age spots, and dryness on face, neck, and hands.</li>
+            </ul>
           </div>
         </section>
 
