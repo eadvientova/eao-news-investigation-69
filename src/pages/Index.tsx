@@ -872,18 +872,18 @@ const Index = ({destinationUrl}) => {
           </div>
 
           <div className="fomo-box text-center">
-            <p className="font-semibold text-lg mb-2">🔥 Exclusive Reader Discount</p>
-            <p className="text-sm mb-4">Fox Lifestyle readers snag 40% off Essence of Argan Oil—but only for the next 24 hours!</p>
+            <p className="font-semibold text-lg mb-2">🔥 Breaking: 40% Off Essence of Argan Oil</p>
+            <p className="text-sm mb-4">Fox Lifestyle exclusive: grab 40% off the overnight Botox-beater—but only for the next 24 hours!</p>
           </div>
 
           <div className="text-center">
             <a href={destinationUrl} className="editorial-cta-large text-xl px-10 py-5">
-              👉 Claim Your Essence of Argan Oil Discount Now
+              👉 Grab 40% Off Essence of Argan Oil Before Midnight
             </a>
           </div>
 
           <p className="news-body text-lg mt-6 text-center font-semibold">
-            Don't wait—your Essence of Argan Oil glow could start tonight.
+            Don't wait—your wrinkle-free glow starts tonight.
           </p>
         </div>
 
