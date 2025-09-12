@@ -835,27 +835,26 @@ const Index = ({destinationUrl}) => {
 
         {/* Why It's Different */}
         <div className="mb-8">
-          <h2 className="news-headline text-3xl font-bold mb-4">Why It's Different From Everything Else</h2>
+          <h2 className="news-headline text-3xl font-bold mb-4">Why Essence of Argan Oil Replaces Every Jar</h2>
 
           <p className="news-body text-lg mb-4">
-            Most beauty brands split their formulas: one for eyes, one for the neck, one for the face, one for spots.
+            Beauty giants push five separate jars—eye cream, neck cream, spot corrector, night lotion, wrinkle serum.
           </p>
 
           <p className="news-body text-lg mb-4">
-            <strong>CaviArgan doesn't play that game.</strong>
+            <strong>Essence of Argan Oil blows up that routine.</strong>
           </p>
 
           <p className="news-body text-lg mb-4">
-            It's one luxurious cream—formulated to:
+            This Moroccan breakthrough does the work of all five:
           </p>
 
           <ul className="list-disc list-inside space-y-2 mb-8 text-lg">
-            <li>Boost elasticity</li>
-            <li>Reduce wrinkles and lines</li>
-            <li>Shrink pores</li>
-            <li>Brighten dull skin</li>
-            <li>Lock in hydration</li>
-            <li>Smooth texture</li>
+            <li>Erase crow's feet and deep lines</li>
+            <li>Smooth neck creases overnight</li>
+            <li>Fade age spots and sun damage</li>
+            <li>Flood skin with all-day hydration</li>
+            <li>Brighten dull texture for a camera-ready glow</li>
           </ul>
         </div>
 
@@ -864,7 +863,7 @@ const Index = ({destinationUrl}) => {
           <h2 className="news-headline text-3xl font-bold mb-4">Where to Get It Before It Sells Out</h2>
 
           <p className="news-body text-lg mb-4">
-            Here's the catch: CaviArgan Cream is only available online, and demand has been skyrocketing since beauty insiders began calling it "the one-step wonder."
+            Here's the catch: Essence of Argan Oil is only sold online, and demand has been skyrocketing since insiders dubbed it "the one-step wonder."
           </p>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-6">
@@ -874,17 +873,17 @@ const Index = ({destinationUrl}) => {
 
           <div className="fomo-box text-center">
             <p className="font-semibold text-lg mb-2">🔥 Exclusive Reader Discount</p>
-            <p className="text-sm mb-4">Fox Lifestyle readers save 40% - but only for the next 24 hours!</p>
+            <p className="text-sm mb-4">Fox Lifestyle readers snag 40% off Essence of Argan Oil—but only for the next 24 hours!</p>
           </div>
 
           <div className="text-center">
             <a href={destinationUrl} className="editorial-cta-large text-xl px-10 py-5">
-              👉 Claim Your Exclusive Discount Now
+              👉 Claim Your Essence of Argan Oil Discount Now
             </a>
           </div>
 
           <p className="news-body text-lg mt-6 text-center font-semibold">
-            Don't wait—your younger-looking skin could start today.
+            Don't wait—your Essence of Argan Oil glow could start tonight.
           </p>
         </div>
 
